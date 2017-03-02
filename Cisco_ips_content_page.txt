@@ -1,0 +1,5279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<title>Cisco Services for IPS</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+<!-- camptemplate code start -->
+			
+			
+			
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<link rel="shortcut icon" href="https://www.cisco.com/favicon.ico" type="image/x-icon" />
+
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js no-touch iem7" lang="en"> <![endif]-->
+<!--[if lt IE 7]><html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" lang="en" xml:lang="en" id="ie6" class="no-js no-touch ie lt-ie12 lt-ie11 lt-ie10 lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" lang="en" xml:lang="en" id="ie7" class="no-js no-touch ie lt-ie12 lt-ie11 lt-ie10 lt-ie9 lt-ie8 gt-ie6"><![endif]-->
+<!--[if IE 8]><html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" lang="en" xml:lang="en" id="ie8" class="no-js no-touch ie lt-ie12 lt-ie11 lt-ie10 lt-ie9 gt-ie6 gt-ie7"><![endif]-->
+<!--[if IE 9]><html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" lang="en" xml:lang="en" id="ie9" class="no-js no-touch ie lt-ie12 lt-ie11 lt-ie10 gt-ie8 gt-ie7 gt-ie6"><![endif]-->
+<!--[if !IE]><!-->
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" lang="en" xml:lang="en" class="no-touch no-js"><!--<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+    
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+ 
+    <title>Cisco Security - Cisco</title>
+    
+    
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+<meta name="fb:app_id" content="156494687694418"  />
+    <meta name="ioContentSource" content="WEM"  />
+    <meta name="concept" content="Cisco Security Center"  />
+    <meta name="docType" content="Application Home"  />
+    <meta name="iaPath" content="cisco.com#Application#ProductsAndServices#Cisco Security Center"  />
+    <meta name="contentType" content="cisco.com#US#preSales"  />
+    <meta name="locale" content="US"  />
+    <meta name="language" content="en"  />
+    <meta name="country" content="US"  />
+    <meta name="date" content="Mon Nov 10 13:06:26 PST 2014"  />
+    <meta name="accessLevel" content="Customer"  />
+    <meta name="accessLevel" content="Guest"  />
+    <meta name="accessLevel" content="Partner"  />
+    <meta name="entitlementExpression" content="contains( &quot;0,1,2,3,4,7&quot; , $profileField[3] )"  />
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8"  />
+    <meta name="description" content="The Cisco Security Intelligence Operations Portal (SIOP) is a free, customer-facing website that is part of Cisco’s Security Services presence and strategy, and resides at cisco.com/security. 
+"  />
+    <meta name="title" content="Cisco Security"  />
+    
+    
+ 
+    <!--[if lt IE 9]><meta http-equiv="X-UA-Compatible" content="IE=8" /><![endif]-->
+    <!--[if gt IE 8]><meta http-equiv="X-UA-Compatible" content="IE=edge" /><![endif]-->
+    <!--[if !IE]><meta http-equiv="X-UA-Compatible" content="chrome=1" /><![endif]-->
+    <meta charset="utf-8">
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Mobile IE allows us to activate ClearType technology for smoothing fonts for easy reading -->
+    <meta http-equiv="cleartype" content="on">
+
+    
+
+
+    <link rel="search" type="application/opensearchdescription+xml" title="Search Cisco.com" href="//www.cisco.com/web/tsweb/searchplugins/cdc_search.xml"/>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="//www.cisco.com/etc/designs/cdc/fw/snapshots/js/foundation-1.17v.js"></script>
+
+
+
+
+
+
+    
+    <!--[if (IEMobile 7) | (lt IE 9)]>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="//www.cisco.com/etc/designs/cdc/fw/snapshots/css/responsive-ie-1.17v.css">
+
+
+
+        
+    <![endif]-->
+    <!--[if (!IE) | (gt IE 8)]><!-->
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="//www.cisco.com/etc/designs/cdc/fw/snapshots/css/responsive-1.17v.css">
+
+
+
+        
+    <!--<![endif]-->    
+       <link rel="stylesheet" type="text/css" href="//www.static-cisco.com/assets/camp/c/apps_embedded-min.css">        
+
+    
+    <title>Test Application</title>
+
+    
+    
+    
+     
+</head>
+
+<body id="wcq" class="fw-res cdc-camp">
+    <!--[if IE 8]><ie xmlns="html5"><![endif]-->
+    <!--googleoff: index--><!--googleoff: snippet-->
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="fw-skiplinks">
+    <ul class="container">
+        <li><a href="//www.cisco.com/c/en/us/index.html" tabindex="4">Home</a></li>
+        
+        <li><a href="#fw-content">Skip to content</a></li>
+        
+        <li><a href="#fw-footer" class="last">Skip to footer</a></li>
+    </ul>
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    if (typeof cdc === 'undefined') {cdc = {}; }
+    if (typeof cdc.local === 'undefined') {cdc.local = {}; }
+    if (typeof cdc.local.wpx === 'undefined') {cdc.local.wpx = {}; }
+
+    var cookieInformerMsg = "&nbsp;";
+    cdc.local.wpx.COOKIE_INFORMER_MESSAGE = (cookieInformerMsg === "&nbsp;" || cookieInformerMsg === "Cookie Informer Message") ? "" : cookieInformerMsg;
+
+    var cookieInformerBtn = "&nbsp;";
+    cdc.local.wpx.COOKIE_INFORMER_BUTTON_TITLE = (cookieInformerBtn === "&nbsp;" || cookieInformerBtn === "Cookie Informer Button Title") ? "" : cookieInformerBtn;
+
+</script>
+
+<!-- begin: masthead -->
+<header id="fw-masthead" data-owner="ID">
+    <div id="fw-banner">
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start: utility links -->
+    <nav id="fw-utility" data-owner="ID">
+        <ul id="language">
+            <li class="no-pipe"><a href="//www.cisco.com/web/siteassets/locator/index.html">Worldwide [change]</a></li>
+
+        </ul>
+
+        <ul id="actions" class="guest-actions">
+            
+                <li class="fw-welcome">Welcome,</li>
+            
+
+            <li class="fw-account-util"><a href="//www.cisco.com/web/siteassets/account/index.html">Account</a></li>
+
+            
+                <li class="fw-logout-util no-pipe"><a href="https://www.cisco.com/autho/logout.html?ReturnUrl=http://www.cisco.com/web/fw/lo/logout.html">Log Out</a></li>
+            
+
+            
+
+            
+        </ul>
+
+        
+        <div id="mycisco"><a href="//www.cisco.com/cisco/psn/web/workspace">My Cisco</a></div>
+        
+    </nav>
+<!-- End: utility links -->
+
+
+        <button id="fw-treenavbutton" data-treenav="//www.static-cisco.com/web/fw/co/treenav-partner.json">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <a id="fw-logo" href="//www.cisco.com/c/en/us/index.html">
+            <div>Cisco.com Worldwide Home</div>
+        </a>
+
+        
+        <nav id="fw-areanav">
+            <ul>
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <li id="products-mm-item">
+ <a href="//www.cisco.com/c/en/us/products/index.html">Products &amp; Services</a>
+ <a href="//www.static-cisco.com/web/fw/co/menu-content-partner.html#products-mm-menu" class="mm-reflink">(menu)</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li id="support-mm-item">
+    <a href="//www.cisco.com/c/en/us/support/index.html">Support</a>
+    <a href="//www.static-cisco.com/web/fw/co/menu-content-partner.html#support-mm-menu" class="mm-reflink">(menu)</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <li id="ordering-mm-item">
+   <a href="//www.cisco.com/web/ordering/root/index.html">How to Buy</a>
+   <a href="//www.static-cisco.com/web/fw/co/menu-content-partner.html#ordering-mm-menu" class="mm-reflink">(menu)</a>
+ </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <li id="training-mm-item">
+ <a href="//www.cisco.com/web/learning/index.html">Training & Events</a>
+ <a href="//www.static-cisco.com/web/fw/co/menu-content-partner.html#training-mm-menu" class="mm-reflink">(menu)</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <li id="partner-mm-item">
+ <a href="//www.cisco.com/web/partners/index.html">Partners</a>
+ <a href="//www.static-cisco.com/web/fw/co/menu-content-partner.html#partner-mm-menu" class="mm-reflink">(menu)</a>
+</li>
+
+
+            </ul>
+        </nav>
+        
+
+        <span class="search-entitlement">Guest</span>
+
+        <section id="fw-search" role="search">
+            <form name="sitewidesearch" action="http://tools.cisco.com/search/JSP/search-results.get" data-action="http://tools.cisco.com/search/JSP/search-results.get" data-mobileaction="http://search.cisco.com/search" method="get" id="sitewidesearch" class="tabs-searchResultsForm searchGlobal">
+                <div>
+                    <label for="searchPhrase" name="search" id="search">Search</label>
+                    <input type="search" tabindex="2" name="strQueryText" class="inputSearchGlobal" id="searchPhrase" value="" autocomplete="off">
+                    <input type="search" name="ihq" class="inputSearchGlobal" id="mobile-search-input" value="" autocomplete="off">
+                    <button value="Submit" type="submit" id="fw-search-button" tabindex="3"><div></div></button>
+                </div>
+                <input type="hidden" value="cisco.com" name="Search All cisco.com">
+                <input type="hidden" value="en" name="language">
+                <input type="hidden" value="US" name="country">
+                <input type="hidden" value="f" name="thissection">
+                <input type="hidden" value="Guest" name="accessLevel">
+            </form>
+        </section>
+        <button id="fw-searchbutton" tabindex="1"></button>
+    </div>
+</header>
+<!-- ends: masthead -->
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="fw-content" class="container grid">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+<div class="row full" data-owner="ID">
+ <div class="col full">
+
+     
+
+    <!--googleon: index--><!--googleon: snippet-->
+
+    <h1 id="fw-pagetitle" data-owner="ID">Cisco Security</h1>
+    
+    <!--googleoff: index--><!--googleoff: snippet-->
+    
+           
+  </div>  
+</div>
+
+    <div class="row full">
+    
+        
+                <!--googleon: index--><!--googleon: snippet-->
+        
+    
+        
+
+	
+
+
+
+
+
+
+
+
+
+
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="shortcut icon" href="https://www.cisco.com/favicon.ico" type="image/x-icon" />
+	<script src="https://tools.cisco.com/security/center/js/calendarIps.js"></script>
+	
+	
+	<script type="text/javascript"  src="https://tools.cisco.com/security/center/js/validate.js"></script>
+	<script type="text/javascript" src="https://www.cisco.com/swa/j/lc.js" ></script>
+	<script type="text/javascript" src="https://tools.cisco.com/security/center/js/tabs.js" ></script>
+	<link rel="stylesheet" type="text/css"	href="https://www.cisco.com/web/fw/w/cl/cl.min.css" />
+	<script type="text/javascript">
+	var data= '';
+  
+			function disableSelection(){
+				var target=document.getElementById("evenCaptchaImage");
+					if (typeof target.onselectstart!="undefined") //IE route
+						target.onselectstart=function(){return false}
+						else if (typeof target.style.MozUserSelect!="undefined") //Firefox route
+							target.style.MozUserSelect="none"
+							else //All other route (ie: Opera)
+								target.onmousedown=function(){return false}
+								target.style.cursor = "default"
+			}
+
+			function checkDates(){
+				if(document.formTDB!=null){
+					var objFromDate = document.formTDB.tdbdate1.value;
+			      	var objToDate = document.formTDB.tdbdate2.value;
+			      	var rv = document.formTDB.releaseVersion.value;
+			      	if(objFromDate =='' && objToDate=='' && rv==''){
+			      			document.getElementById("tdbsearch").disabled = 'disabled';
+			      	}
+			      	else{
+			      			document.getElementById("tdbsearch").disabled = '';
+			      	}
+				}
+			
+			}
+
+
+
+
+			
+
+	</script>
+	
+	<script>
+	function addcopyright(){
+    	var nodde = document.getElementById("fw-footer")
+    	var el =  document.createElement("div");
+    	var att = document.createAttribute("id");
+    	att.value = "footer-copyright";
+    	el.setAttributeNode(att);
+    	el.innerHTML = 'Cisco provides the official information for all pages on the Cisco Security portal site in English only.' ;
+    	nodde.appendChild(el); 
+   		}
+   
+   		(function () {
+       		setTimeout( function() { addcopyright() } ,15000 );
+    	})();
+	</script>
+
+	<style>
+    #footer-copyright{
+    font-size:11px;clear:both;padding-left: 12px;color:#525252;
+    }
+
+#fw-footer a{
+	color:#007fc5;
+}
+    
+</style>
+	
+	<script type="text/javascript">
+	
+	function checkLenghtEfficient(){
+		var k= document.getElementById('t7').value;
+		if(k.length<5){
+			document.getElementById('btnSubmit').disabled='disabled';
+			document.getElementById('captchaError').style.display='none';
+			return false;
+		}
+		if(k.length>5){
+			document.getElementById('btnSubmit').disabled='disabled';
+			document.getElementById('captchaError').style.display='block';
+			return false;
+		}
+		if(k.length==5){
+			validateCaptchaImageText();
+		}
+		return false;
+	}
+	function checkButtonEnable(){
+		if((document.getElementById('enabled9').value)=='N'){
+			if((document.getElementById('t1')!=null && document.getElementById('t1').value.length>0) || (document.getElementById('t2')!=null && document.getElementById('t2').value.length>0) || (document.getElementById('t3')!=null && document.getElementById('t3').value.length>0)
+					||(document.getElementById('t4')!=null && document.getElementById('t4').value.length>0) || (document.getElementById('t5')!=null && document.getElementById('t5').value.length>0) 
+					||(document.getElementById('t6')!=null && document.getElementById('t6').value!="")
+				){
+				document.getElementById('btnSubmit').disabled='';
+			}
+			else{
+				document.getElementById('btnSubmit').disabled='disabled';
+			}
+			
+		}
+	}
+
+	function testImg123(){
+
+		  jQuery.ajax({
+			    type: "GET",
+			    url: "https://tools.cisco.com/security/center/kaptcha.jpg",
+			    success: '',
+				error: function(xhr) {
+					//alert("xhr "+xhr);
+			     }
+			  });		
+		
+	}
+
+	function testimga(res){
+		//alert("testwa");
+		//testImg123();
+		//alert("1212");
+		document.getElementById("btnSubmit").disabled='disabled';
+		var date = new Date();
+		document.getElementById("testimgp").src="https://tools.cisco.com/security/center/xyz"+ '?v=' + date.getTime();
+		document.getElementById("t7").value="";
+		document.getElementById("captchaError").style.display="none";
+		
+		
+	}
+		
+	
+	function checkEman(){
+		//alert("in eman ");
+		
+      $.get('https://tools.cisco.com/security/center/EMAN', function(data) {
+                    data=$.trim(data);
+                    //alert("DATA IS"+data);
+                    goingCorrect(data);   
+           }); 
+      
+	}
+
+
+	  function goingCorrect(data){
+       
+		  var v=data;//v=ok that means server running for file upload
+	      
+	      if(v=="Ok"){
+    			if(document.getElementById('enabled5')!=null){
+         			if(document.getElementById('enabled5').value=="Y"){
+         				document.getElementById('fileShow1').style.display='block';
+         				document.getElementById('fileShow2').style.display='block';
+         			}
+       	  		}
+		  }
+	      else{
+	    		if(document.getElementById('enabled5')!=null){
+	    	 		if(document.getElementById('enabled5').value=="Y"){
+	             	document.getElementById('fileShow1').style.display='none';
+	             	document.getElementById('fileShow2').style.display='none';
+	         		}
+	    		}
+		  }
+	  } 
+	
+
+		function refreshDiv(){
+				$('#kaptchaImage').attr('src', 'https://tools.cisco.com/security/center/kaptcha.jpg?' + Math.floor(Math.random()*100) );
+		}
+
+		
+	
+		// Code implemented by application on CDC
+		function assignDateIps(dateObject, contextStr, formName){
+			
+
+			var thefield = eval("document."+formName+"." + contextStr);
+			thefield.value = formatDate1(dateObject);
+
+			if(document.getElementById("advSubmit") != null){
+				document.getElementById("advSubmit").disabled=false;
+			}
+			
+			
+			if(document.getElementById("tdbsearch") != null){
+				document.getElementById("tdbsearch").disabled=false;
+			}
+			
+			
+		}
+
+		function submitIpsTab(i, shortname, aTag){
+			var query = "https://tools.cisco.com/security/center/ipshome.x#"+shortname;
+			var input1 = document.createElement("input");
+			input1.type = "hidden";
+			input1.name = "i";
+			input1.value = i;
+			document.tabsForm.appendChild(input1);
+
+			var input3 = document.createElement("input");
+			input3.type = "hidden";
+			input3.name = "shortna";
+			input3.value = shortname;
+			document.tabsForm.appendChild(input3);
+			
+			document.tabsForm.action = query;
+			document.tabsForm.submit();
+			
+		}
+
+		function showTabData(divId){
+			//alert("divId "+divId);
+			
+			jQuery(".selectedyear").removeClass();
+			jQuery("#td_"+divId).addClass("selectedyear");
+
+			var selectedDataDiv = document.getElementById('selectedIt').value;
+
+			//alert("selectedDataDiv "+selectedDataDiv);
+			
+			jQuery("#div_"+selectedDataDiv).css("display","none");
+			jQuery("#div_"+divId).css("display","block");
+
+			document.getElementById('selectedIt').value = divId; 
+		}		
+
+		function getInternetExplorerVersion(){
+		// Returns the version of Internet Explorer or a -1
+		// (indicating the use of another browser).
+		  var rv = -1; // Return value assumes failure.
+		  if (navigator.appName == 'Microsoft Internet Explorer'){
+			  if(window.location.href.indexOf('shortna') > 0){
+				   var shortname = window.location.href.substring(window.location.href.indexOf('shortna')+8, window.location.href.length)
+				   window.location.hash=shortname;
+				   if(document.getElementById(shortname) != null){
+					   document.getElementById(shortname).click();
+				   }
+			  }
+		  }
+		  window.scrollTo(0,1);
+		}	
+
+		function resetForm(){
+		 
+			/*if(document.getElementById('t1')!=null){
+			document.getElementById('t1').value="";
+			}
+			if(document.getElementById('t2')!=null){
+			document.getElementById('t2').value="";
+			}
+			if(document.getElementById('t3')!=null){
+			document.getElementById('t3').value="";
+			}
+			if(document.getElementById('t4')!=null){
+				document.getElementById('t4').value="";
+			}
+			if(document.getElementById('t5')!=null){
+				document.getElementById('t5').value="";
+			}
+			if(document.getElementById('t6')!=null){
+				document.getElementById('t6').value="";
+			}
+			if(document.getElementById('s1')!=null){
+				var a=document.getElementById('sub1').value;
+			    document.getElementById('s1').value=a;
+			}
+			if(document.getElementById('t7')!=null){
+				document.getElementById('t7').value="";
+			}*/
+			document.getElementById('btnSubmit').disabled='disabled';
+			if(document.getElementById('captchaError')!=null){
+			document.getElementById('captchaError').style.display='none';
+			}
+			if(document.getElementById('fileTYpeSupport')!=null){
+
+				document.getElementById('fileTYpeSupport').style.display='none';
+
+				}
+			if(document.getElementById('emailVal')!=null){
+			document.getElementById('emailVal').style.display='none';
+			}
+			document.getElementById('myDiv').style.display = 'none';
+			if(document.getElementById('fileSize')!=null){
+			document.getElementById('fileSize').style.display = 'none';
+			document.getElementById('t1').value="";
+			document.getElementById('t4').value="";
+				
+			}
+			
+			
+			document.fileForm.reset();
+			document.getElementById('t1').value="";//name
+			document.getElementById('t2').value="";//mail
+			document.getElementById('t3').value="";//desc1
+			document.getElementById('t4').value="";//desc2
+			document.getElementById('t5').value="";//desc3
+			//document.getElementById('s1').value="";
+			document.fileForm.t1.value="";
+			
+			if(document.getElementById('t7')!=null){
+				document.getElementById('t7').value="";
+			}
+		}
+
+
+
+		
+
+
+	function validateCaptchaImageText(){
+
+		var param=document.getElementById('t7').value;
+var data1;
+			  $.get('https://tools.cisco.com/security/center/xyz?uekap='+param, function(data1) {
+                  data1=$.trim(data1);
+                  getValidText(data1,param);   
+         }); 
+
+	}
+
+
+	function getValidText(data1,param){
+		//alert(data1+":"+param);
+		if(data1==param){
+		document.getElementById('captchaError').style.display='none';
+		document.getElementById('btnSubmit').disabled='';
+		}
+		else{
+			document.getElementById('captchaError').style.display='block';
+			document.getElementById('btnSubmit').disabled='disabled';
+
+		}
+	}
+
+
+
+	function validateEmail() {
+	if(document.getElementById("enabled5").value=='Y' && document.getElementById("fileShow1").style.display=="block"){
+	var fileData='';
+		var fileName=document.getElementById("t6").value;
+		//alert("fileName"+fileName);
+		if(document.getElementById("man5").value=='Y'){
+			
+			//alert("mandatory entry needs to be done");
+			if(fileName == "") {
+				//alert("Select File to upload");
+				document.getElementById('myDiv').style.display = 'block';
+				fileData=true;
+				return false;
+			}
+			else{
+				//alert("done correctly");
+				if(fileName.search(/\.(cap|pcap|dmp)$/) == -1) 
+				{
+					//alert("Invalid filename extension.Only cap, dcap and dmp formats are supported");
+					//document.getElementById("fileTYpeSupport").style.display="block";
+					//document.getElementById("btnSubmit").disabled="disabled";
+					//alert("in if")
+					fileData=false;
+					//return false;
+				}
+				else{
+					document.getElementById("fileTYpeSupport").style.display="none";
+					fileData=true;
+					}
+
+					
+
+				}
+			
+			
+
+			}
+		else{
+			//alert("in else");
+
+
+
+			if(fileName != "") {
+				if(fileName.search(/\.(cap|pcap|dmp)$/) == -1) 
+				{
+					//alert("Invalid filename extension.Only cap, dcap and dmp formats are supported");
+					//document.getElementById("fileTYpeSupport").style.display="block";
+					//document.getElementById("btnSubmit").disabled="disabled";
+					fileData=false;
+					//return false;
+				}
+				else{
+					//alert("in non else");
+					document.getElementById("fileTYpeSupport").style.display="none";
+					fileData=true;
+					}
+				
+				//return false;
+			}
+			else{
+				//alert("in non else1");
+				fileData=true;
+
+				}
+
+			}
+		
+		
+		/*if(fileName == "") {
+			alert("Select File to upload");
+			return false;
+		}*/
+
+		/*if(fileName.search(/\.(cap|pcap|dmp)$/) == -1) 
+		{
+			alert("Invalid filename extension.Only cap, dcap and dmp formats are supported");
+			document.getElementById("fileTYpeSupport").style.display="block";
+			document.getElementById("btnSubmit").disabled="disabled";
+			return false;
+		}
+		else{
+			document.getElementById("fileTYpeSupport").style.display="none";
+			}*/
+			
+	}
+
+
+		if(document.getElementById('t2')!=null){
+		var email = document.getElementById('t2');
+		var filter = /^([a-zA-Z0-9_\.\_])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+		var eid=email.value.toString();
+		
+		if((document.getElementById('enabled2').value=="Y" && document.getElementById('man2').value=="Y") || document.getElementById('t2').value!=""){
+			if ((filter.test(email.value))) {
+				document.getElementById('emailVal').style.display='none';
+				var flag=true;
+				submitForm(flag,fileData);
+			}
+			else{
+				//document.getElementById('emailVal').style.display='block';
+				var flag=false;
+				submitForm(flag,fileData);
+				return false;
+			}
+		}
+		else{
+			var flag=true;
+			submitForm(flag,fileData);
+		}
+	 }
+		else{
+			var flag=true;
+			submitForm(flag,fileData);
+
+			}
+	}
+
+			
+		/*function validateEmail1(){
+			if(document.getElementById('enabled2').value=='Y'){
+				var x=document.forms["fileForm"]["t2"].value;
+				var atpos=x.indexOf("@");
+				var dotpos=x.lastIndexOf(".");
+					if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length){
+				  		document.getElementById('emailVal').style.display='block';
+				  		return false;
+				  	}
+					else{
+						document.getElementById('emailVal').style.display='none';
+						submitForm();
+					}
+			}
+		}*/
+
+
+		function submitForm(flag,fileData){
+			//alert("Flag is"+flag);
+			//alert("FileData is"+fileData);
+			
+			
+			var val1=document.getElementById('man1').value;//name
+			var val2=document.getElementById('man2').value;//mail
+			var val3=document.getElementById('man3').value;//subject
+			var val4=document.getElementById('man4').value;//details 1
+			var val5=document.getElementById('man5').value;//file
+			var val6=document.getElementById('man6').value;//extra text
+			var val7=document.getElementById('man7').value;// details 2
+			var val8=document.getElementById('man8').value;//details 3
+			var val9=document.getElementById('man9').value;//captcha
+
+			var en1=document.getElementById('enabled1').value;//name
+			var en2=document.getElementById('enabled2').value;//mail
+			var en3=document.getElementById('enabled3').value;//subject
+			var en4=document.getElementById('enabled4').value;//details 1
+			var en5=document.getElementById('enabled5').value;//file
+			var en7=document.getElementById('enabled7').value;// details 2
+			var en8=document.getElementById('enabled8').value;//details 3
+			var en9=document.getElementById('enabled9').value;//details 3
+			
+			if(document.getElementById('t1')!=null){
+			var name=document.getElementById('t1').value;
+			}
+			if(document.getElementById('t2')!=null){
+			var mail=document.getElementById('t2').value;
+			}
+			if(document.getElementById('s1')!=null){
+			var subject=document.getElementById('s1').value;
+			}
+			if(document.getElementById('t3')!=null){
+			var desc1=document.getElementById('t3').value;
+			}
+			if(document.getElementById('t4')!=null){
+			var desc2=document.getElementById('t4').value;
+			}
+			if(document.getElementById('t5')!=null){
+			var desc3=document.getElementById('t5').value;
+			}
+			if(document.getElementById('t6')!=null){
+			var file=document.getElementById('t6').value;
+			}
+			if(document.getElementById('t7')!=null){
+			var captcha=document.getElementById('t7').value;
+			}
+			var fileDisplay="none";
+				if(en5=="Y"){
+					fileDisplay=document.getElementById('fileShow1').style.display;
+				}
+			
+			if(((val1=="Y" && name!="")||val1=="N"||en1=="N")&&((val2=="Y" && mail!="")||val2=="N"||en2=="N")
+					&&((val4=="Y" && desc1!="")||val4=="N"||en4=="N")	&&((val5=="Y" && file!="")||val5=="N"||en5=="N"||fileDisplay=="none")
+					&&((val7=="Y" && desc2!="")||val7=="N"||en7=="N")&&((val8=="Y" && desc3!="")||val8=="N"||en8=="N")
+					&&((val9=="Y" && captcha!="")||val9=="N"||en9=="N")
+			   ){
+					if(document.getElementById('fileShow1')!=null){
+						if(document.getElementById('fileShow1').style.display=='none'){
+
+							if(flag!=false && fileData!=false){
+								//alert("go ahead");
+								document.getElementById('myDiv').style.display = 'none';
+								document.fileForm.action = document.getElementById('redirect').value;
+								document.fileForm.submit();
+							}
+							else{
+								if(flag==false){
+									document.getElementById('myDiv').style.display = 'none';
+									document.getElementById('emailVal').style.display='block';
+
+									}
+								if(fileData==false){
+									document.getElementById('myDiv').style.display = 'none';
+									document.getElementById("fileTYpeSupport").style.display="block";
+
+									}
+
+								}
+							
+						}
+					else{
+						//alert("rdx jvm redirect")
+						if(flag!=false && fileData!=false){
+							document.getElementById('myDiv').style.display = 'none';
+						  document.fileForm.action = document.getElementById('newJvm').value;
+						  document.fileForm.submit();
+						}
+						else{
+							if(flag==false){
+								document.getElementById('myDiv').style.display = 'none';
+								document.getElementById('emailVal').style.display='block';
+
+								}
+							if(fileData==false){
+								document.getElementById('myDiv').style.display = 'none';
+								document.getElementById("fileTYpeSupport").style.display="block";
+
+								}
+
+							}
+						
+					}
+				}
+				else{
+
+
+					if(flag!=false && fileData!=false){
+						document.getElementById('myDiv').style.display = 'none';
+					document.fileForm.action = document.getElementById('redirect').value;
+					document.fileForm.submit();
+					}
+					else{
+						if(flag==false){
+							document.getElementById('emailVal').style.display='block';
+
+							}
+						if(fileData==false){
+							document.getElementById("fileTYpeSupport").style.display="block";
+
+							}
+
+					}
+
+					
+				}
+			}
+			else{
+				
+            	document.getElementById('myDiv').style.display = 'block';
+				if(flag==false){
+					document.getElementById('emailVal').style.display='block';
+
+					}
+				if(fileData==false){
+					document.getElementById("fileTYpeSupport").style.display="block";
+
+					}
+
+            	
+			}
+		}
+
+
+
+		/*function testImg123(){
+
+			  $j.ajax({
+				    type: "GET",
+				    url: "https://localhost:8080/security/center/kaptcha.jpg",
+				    success: done,
+					error: function(xhr) {
+						alert("xhr "+xhr);
+				     }
+				  });		
+			
+		}
+
+		function testimga(){
+			alert("testwa");
+			testImg123();
+			document.getElementById("testimgp").src="https://localhost:8080/security/center/xyz";
+			
+		}
+		function done(){
+
+			
+
+		}*/
+
+		
+		var cacheSignatureErrorMessage = '';
+
+var browserType;
+if (navigator.userAgent.indexOf("Opera") != -1 && document.getElementById) {
+    browserType = "OP";
+}
+else if (document.layers) {
+    browserType = "NN";
+}
+else if (document.all) {
+    browserType = "IE";
+}
+else if (!document.all && document.getElementById) {
+    browserType = "MO"; // Mozilla upwards
+}
+
+function Toggle(tabToShow, divAreaName){
+    var numerOfTabs = 0;
+    for (var loop = 0; loop < document.getElementsByTagName('div').length; loop++) {
+        var DivIdName = "document.getElementsByTagName('DIV')[" + loop + "].id";
+        if (eval(DivIdName) && eval(DivIdName).indexOf(divAreaName) != -1) {
+            numerOfTabs++;
+        }
+    }
+    for (var loop = 1; loop <= numerOfTabs; loop++) {
+        var currentTabId = divAreaName + loop;
+        var action;
+        if (loop == tabToShow) {
+            action = "block";
+        } else {
+            action = "none";
+        }
+        if (browserType == "NN") {
+            eval("document." + currentTabId + ".visibility='" + action + "'");
+        } else if (browserType == "IE") {
+            eval("document.all." + currentTabId + ".style.display='" + action + "'");
+        } else if (browserType == "MO" || browserType == "OP") {
+            eval("document.getElementById('" + currentTabId + "').style.display='" + action + "'");
+        }
+    }
+}
+
+function TogglePlusMinus(num) {
+   var filepath = document.getElementById('plusminus' + num).src;
+   var x = filepath.slice(-8,-4);
+   if (x == 'plus') {
+       document.getElementById('plusminus' + num).src = filepath.replace('plus','minus');
+   } else {
+       document.getElementById('plusminus' + num).src = filepath.replace('minus','plus');
+   }
+    // change other bars to 'plus'
+   for (var y=1;y<200;y++) {
+       if (y == num) {
+           // do nothing, carry on    
+       } else if (document.getElementById('plusminus' + y)) {
+           document.getElementById('plusminus' + y).src = filepath.replace('minus','plus');
+       }
+   }
+}
+		</script>
+		<style>
+		
+			
+			p,a{
+	vertical-align: top !important;
+	line-height: 1.66em !important;
+}
+			
+		</style>
+		  <style>body{ font-size: 11px; font-family: Arial; }</style>
+		 		
+
+
+
+
+		
+		
+	
+	
+	<link rel="stylesheet" href="https://tools.cisco.com/security/center/css/dhtmlgoodies.css" type="text/css" />
+	<script type="text/javascript" src="https://tools.cisco.com/security/center/js/dhtmlgoodies.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://www.cisco.com/assets/pilot/c39/mbw/mbw-hero.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.static-cisco.com/assets/pilot/bundles/mbw-pcr-bundle.css" />	
+	<link rel="stylesheet" href="https://tools.cisco.com/security/center/css/Resources_VoD.css" type="text/css" />
+	
+	
+		<style type="text/css"> 
+		div.csp_bread_crumbs a{
+  				vertical-align:middle !important;
+  			}
+			.clb table#ytable td { 
+				padding-top: 10px;
+				padding-right: 20px;
+				padding-bottom: 10px;
+				padding-left: 20px;
+				margin: 0;
+			}
+			.clb table#ytable td.selectedyear {
+				padding-top: 10px;
+				padding-right: 20px;
+				padding-bottom: 10px;
+				padding-left: 20px;
+				margin:0;
+				color:#374D86;
+				background-color:#EBEBEB;
+				font-weight:bold;
+				font-size:120%;
+			}
+
+		 .tableishdiv {
+			 background: #333;
+			 margin-bottom: 30px;
+			 margin-top: 0;
+		 }
+		 
+		 .tableishdiv ul {
+			 float: left;
+			 margin: 0;
+			 padding: 0;
+			 /* border: 1px solid #C9C9C9; */
+		 }
+		 </style>	
+	
+	<base href="https://www.cisco.com" />	
+<link rel="stylesheet" type="text/css" href="https://www.cisco.com/web/fw/apps/c/apps.css" />
+<link rel="stylesheet" href="https://tools.cisco.com/security/center/css/csp_relatedlinks.css" type="text/css"></link>
+<link rel="stylesheet" href="https://tools.cisco.com/security/center/css/csp_local.css" type="text/css" />
+<body id="wps" class="cdc-fw" onLoad="javascript:isisCheck();initShowHideDivs();getInternetExplorerVersion();checkEman();checkDates();checkingSubmit();javascript:loadToggle();disableSelection();"> <!--javascript:checkInput();-->
+		
+				<!-- Breadcrum -->
+	<div id="crumbs" class="csp_bread_crumbs">
+		 <a href="https://www.cisco.com" id="ext-gen568">Home </a> / <a href="https://tools.cisco.com/security/center/home.x" id="ext-gen569">Cisco Security</a> /<a href="https://tools.cisco.com/security/center/publicationListing.x?product=NonCisco#~Vulnerabilities"> Security Advisories and Alerts</a>
+	</div>
+
+	<!-- BEGIN OF TITLE -->
+	<div id="csp-mb-title-nav-bar" class="csp-clearfix">
+		<div id="csp-framework-content-titles">
+			<h1 class="csp-title-section">
+				Cisco Security
+			</h1>
+			<h2 class="csp-title-page" style="margin-top: 0px !important;">
+				Cisco Services for IPS 
+			</h2>
+
+		</div>
+	</div>
+	<!-- END OF TITLE -->
+
+			<table cellspacing='0' cellpadding='0' border='0' summary='' id="framework-base-main" class="page_data" >
+			<tbody>
+				<tr>
+					<td id='framework-column-center'>
+						<table cellspacing="0" id="framework-base-content" border='0'>
+							<tr>
+								<td id="framework-column-main">
+									<a name="content"></a>
+									<div style="width:705px;margin-right:15px;margin-left:10px" id="framework-content-main">										
+    
+										<script type="text/javascript"  src="https://tools.cisco.com/security/center/js/ips_home.js"></script>
+										<link rel="stylesheet" href="https://tools.cisco.com/security/center/css/ips_home.css" type="text/css" />
+										<style>
+										a:hover {
+											color: #2970a6;
+											text-decoration: underline; 
+											outline: none;
+											cursor: pointer;
+										}
+										a:link {
+											color: #2970a6;
+											outline: none;
+											cursor: pointer;
+										}
+										</style>
+																							
+													
+										 <script type="text/javascript">
+										   cdc.homepage.newsfeed.maxItems=50;
+										   cdc.homepage.newsfeed.fetchNews({       
+											  pnews: 'Previous News Item',
+											  nnews: 'Next News Item' 
+										   });
+										   cdc.homepage.newsfeed.renderNews({
+										   	items: [
+											       	
+										   	]	
+										   	});	
+										 </script>	
+										 </br>										
+                                         <div id="intro" style="margin-bottom: 10px;line-height:1.1em;"> 
+                                             <p><p><b><a href='http://www.cisco.com/c/en/us/about/security-center/eol-ips.html'>End of Service / End of Life Notifications for Signature Services for Intrusion Detection and Prevention</a></b></p></br>
+
+Cisco Services for IPS protects and enhances the effectiveness of the Cisco Intrusion Prevention System. Supported by the Cisco Global Security Intelligence organization, Cisco Services for IPS delivers continuously updated, comprehensive, and accurate detection technology to identify and block fast-moving and emerging threats. </p>                                    	 </div>
+										
+											
+
+
+
+
+
+
+ <!--  js file used to load online video player -->		
+<script type="text/javascript" src="https://sadmin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<!-- CSS file require to load OVP player in IE and firefox. It has style to load video player without flash player plugin-->  
+<link href="https://www.cisco.com/assets/swa/flash/ovp/res_ovp.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript">
+	  function toggleViewMoreContent(id1,id2){
+
+        
+        
+        	document.getElementById(id1).style.display = 'block';
+        	document.getElementById(id2).style.display = 'none';
+        
+        
+    }
+
+	function toggleViewLessContent(id1,id2){
+		
+        
+        	document.getElementById(id1).style.display = 'none';
+        	document.getElementById(id2).style.display = 'block';
+        
+
+
+
+	}
+
+
+	    
+	
+	</script>
+<!-- Featured content section code start here -->
+
+<div class="col-md-9">
+	<div style="background: #f4f6f6 url('https://www.static-cisco.com/assets/pilot/c50/hero_sprite.png') repeat-x scroll 0 -150px;min-width:705px;min-height:150px;padding: 0 0 10px 18px;border-radius:5px;" class="row">
+	  
+        
+	       
+			 
+			 
+				 
+				 <div style="float:right;padding:0 0 0 20px;height:100%;margin:0px;" class="col-xs-5"> 
+				     <div>
+				            <!-- Use a rectangular image size 240w x 150h - Rounded corners are automatic -->
+				          <img style="height:150px;border-radius:0 5px 5px 0;" src="http://www.cisco.com/web/about/security/sio/IPS-HAJ25212-S_240x192.jpg">
+				      </div>
+				 </div>
+				 	                                          	
+	         
+			 
+			<br>
+	   
+					
+		<div class="col-xs-5" style="color:#525252;line-height:0.80;"><br>
+	       	<h4 style="font-size:18px;color: #2871a8;margin-top:0px;">End-of-Sale for Cisco Services for Intrusion Prevention System Support Program</h4>
+			<br>
+	        	<p style="width:68%; line-height:1.6em;">Cisco announces the end-of-sale and end-of-life dates for the Cisco Services for Intrusion Prevention System (IPS) Support Program for the Cisco ASA (5500, 5500-X, and 5585-X series) and the IPS (43xx and 45xx) platforms. Customers with active service contracts will continue to receive full signature updates until the termination date of the contract or the end of signature support date of April 26, 2018, whichever comes first. Please refer to the following links for details:<br /><br>
+<ul><li><a href ="http://www.cisco.com/web/about/doing_business/legal/service_descriptions/docs/eos-ips-support-program.pdf">End-of-Sale for Cisco Services for Intrusion Prevention System Support Program</a></li><br>
+<li><a href="http://www.cisco.com/c/dam/en_us/about/security/ips/eos-faq-ips-signature-service.pdf">Cisco IPS Signature Service End-of-Service FAQ</a></li></ul></p>
+	        	
+		</div>
+ </div>
+ </div>
+ 
+		
+									</div>
+										<!-- This form is used to submit ips tabs-->
+                                       <form name="tabsForm"></form>
+									
+										<div id="c17v1" class="clb c17v1">
+                                            	
+												
+	                                                <div class="tab" id="CiscoIPSSignatures" >
+	                                                	 
+														
+															
+																
+																
+															
+																												
+															
+																																												
+															
+															
+															
+															
+														
+														
+	                                                    
+	                                                    
+	                                                    		                                                    
+	                                                    	
+	                                                    	
+															
+															
+															
+																<a style="line-height:1.33em !important;" href="#" onClick="submitIpsTab(62, 'CiscoIPSSignatures', this)">
+		                                                    		Cisco IPS Signatures
+		                                                    	</a>
+															
+	                                                     														 
+													 </div>
+												
+	                                                <div class="tab" id="ThreatDefenseBulletins" >
+	                                                	 
+														
+															
+															
+																
+																
+																												
+															
+																																												
+															
+															
+															
+															
+														
+														
+	                                                    
+	                                                    
+	                                                    		                                                    
+	                                                    	
+	                                                    	
+															
+															
+															
+																<a style="line-height:1.33em !important;" href="#" onClick="submitIpsTab(57, 'ThreatDefenseBulletins', this)">
+		                                                    		Threat Defense Bulletins
+		                                                    	</a>
+															
+	                                                     														 
+													 </div>
+												
+	                                                <div class="tab" id="DocumentationTraining" >
+	                                                	 
+														
+															
+																												
+															
+																																												
+															
+															
+															
+															
+														
+														
+	                                                    
+	                                                    
+	                                                    		                                                    
+	                                                    	
+	                                                    	
+																<a style="line-height:1.33em !important;" href="#" id="DocumentationTraining">
+		                                                    		Documentation and Training  
+		                                                    	</a>																
+															
+															
+															
+															
+	                                                     														 
+													 </div>
+												
+	                                                <div class="tab" id="CiscoIPSSignatureDownloads" >
+	                                                	 
+														
+															
+																												
+															
+																																												
+															
+																
+																
+															
+															
+															
+															
+														
+														
+	                                                    
+	                                                    
+	                                                    	
+																<a style="line-height:1.33em !important;" href="#" id="CiscoIPSSignatureDownloads">
+		                                                    		Signature Downloads  
+		                                                    	</a>																
+																                                                    
+	                                                    	
+	                                                    	
+															
+															
+															
+	                                                     														 
+													 </div>
+												
+	                                                <div class="tab" id="ContactUS" >
+	                                                	 
+														
+															
+																												
+															
+																																												
+															
+															
+															
+																
+																
+															
+															
+														
+														
+	                                                    
+	                                                    
+	                                                    		                                                    
+	                                                    	
+	                                                    	
+															
+															
+															
+																<a style="line-height:1.33em !important;" href="#" onClick="submitIpsTab(12, 'ContactUS', this)">
+		                                                    		Contact Us
+		                                                    	</a>
+															
+	                                                     														 
+													 </div>
+												
+	                                                <div class="tab" id="IPSSupportCommunity" >
+	                                                	 
+														
+															
+																												
+															
+																																												
+															
+															
+															
+															
+														
+														
+	                                                    
+	                                                    
+	                                                    		                                                    
+	                                                    	
+	                                                    	
+																<a style="line-height:1.33em !important;" href="#" id="IPSSupportCommunity">
+		                                                    		Support Community  
+		                                                    	</a>																
+															
+															
+															
+															
+	                                                     														 
+													 </div>
+												
+	                                                <div class="tab" id="IPSTemplates" >
+	                                                	 
+														
+															
+																												
+															
+																																												
+															
+															
+															
+															
+														
+														
+	                                                    
+	                                                    
+	                                                    		                                                    
+	                                                    	
+	                                                    	
+																<a style="line-height:1.33em !important;" href="#" id="IPSTemplates">
+		                                                    		Cisco IPS Templates  
+		                                                    	</a>																
+															
+															
+															
+															
+	                                                     														 
+													 </div>
+																								
+                                           
+                                                    <style type="text/css"> 
+                                                        .clb table.bodytable td, .clb table.searchbuttontable td {
+                                                            padding: 10px;
+                                                            /* margin: 10px; */
+                                                        }
+                                                    </style>
+												<!-- infotab.signatures Start-->                                                     
+													    <div class="infotab gd02v1" style="padding-bottom: 10px" id="info-CiscoIPSSignatures">
+													    		
+																<p style="padding-bottom:10px"></p>													    
+			                                                  		
+	
+	
+	
+	
+	
+	
+	
+	<!-- Need this for autocomplete: START -->
+	
+<link rel="stylesheet" href="https://tools.cisco.com/security/center/css/jquery.ui/jquery.ui.all.css"></link>
+	
+	<script src="https://tools.cisco.com/security/center/js/jquery.ui/jquery.ui.core.js"></script>
+	<script src="https://tools.cisco.com/security/center/js/jquery.ui/jquery.ui.widget.js"></script>
+	<script src="https://tools.cisco.com/security/center/js/jquery.ui/jquery.ui.position.js"></script>
+	<script src="https://tools.cisco.com/security/center/js/jquery.ui/jquery.ui.autocomplete.js"></script>
+	<style>
+		.ui-autocomplete-loading { background: white url('img/images/loading.gif') right center no-repeat; }
+	
+		.ui-autocomplete {
+		max-height: 100px;
+		overflow-y: auto;
+		/* prevent horizontal scrollbar */
+		overflow-x: hidden;
+		/* add padding to account for vertical scrollbar */
+		padding-right: 20px;
+		}
+	</style>	
+	
+	<script type="text/javascript" src="https://tools.cisco.com/security/center/extjs_grid/ext-base.js"></script>
+	<script type="text/javascript" src="https://tools.cisco.com/security/center/extjs_grid/ext-all-debug.js"></script>
+	<script type="text/javascript" src="https://tools.cisco.com/security/center/extjs_grid/examples.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://tools.cisco.com/security/center/extjs_grid/resources/css/ext-all.css" />
+	<link rel="stylesheet" type="text/css" href="https://tools.cisco.com/security/center/extjs_grid/examples.css" />
+
+
+	
+<script>
+ function displayAdvanced(id){
+	var state=document.getElementById(id).style.display;
+	if(state=='none'){
+		document.getElementById(id).style.display = 'block';
+		document.getElementById('basicSearch').style.display = 'none';
+		document.ipsSignatureSearchForm.firstPublishedStartDate.value="";
+		document.ipsSignatureSearchForm.firstPublishedEndDate.value="";
+		document.ipsSignatureSearchForm.lastPublishedStartDate.value="";
+		document.ipsSignatureSearchForm.lastPublishedEndDate.value="";
+		document.ipsSignatureSearchForm.release.value="";
+		document.getElementById('vendors').value="";
+    }else{
+		document.getElementById(id).style.display = 'none';
+	}
+ }
+ 
+function displayBasic(id){
+	var state=document.getElementById(id).style.display;
+	if(state=='none'){
+		document.getElementById(id).style.display = 'block';
+		document.getElementById('IPSSignatures').style.display = 'none';
+   	 }
+	else{
+		document.getElementById(id).style.display = 'none';
+	}
+}
+
+function isisCheck(){
+//alert("in in isis down");
+var a='null';
+//alert(">>>"+a);
+if(a=="Y"){	
+document.getElementById('IError').style.display='block';
+
+
+
+	
+}
+}
+
+
+
+</script>
+
+<script type="text/javascript"  defer="defer">
+
+
+Ext.onReady(function(){
+
+	
+    
+    var searchFlag = 'Basic';
+    if(searchFlag != null){
+		if(searchFlag == "Advanced"){
+			document.getElementById("IPSSignatures").style.display = 'block';
+			document.getElementById('basicSearch').style.display = 'none';
+	    }else{
+			document.getElementById("basicSearch").style.display = 'block';
+			document.getElementById('IPSSignatures').style.display = 'none';
+	    }
+	}
+		var val=document.getElementById('searchAlertChangePageSize').value;
+		//alert(">>>>>>"+document.getElementById('searchAlertChangePageSize').value)
+		var ht=350;
+
+		if(val==10){
+			ht=300;
+		}
+		
+		if(val==20){
+			ht=550;
+			}
+
+		if(val==50){
+			
+			ht=1270;
+	    }
+		if(val==100){
+			
+			ht=2470;
+	    }
+
+    // NOTE: This is an example showing simple state management. During development,
+    // it is generally best to disable state management as dynamically-generated ids
+    // can change across page loads, leading to unpredictable results.  The developer
+    // should ensure that stable state ids are set for stateful components in real apps.
+    Ext.state.Manager.setProvider(new Ext.state.CookieProvider());
+
+    var myData = [["1080/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=1080&signatureSubId=0&softwareVersion=6.0&releaseVersion=S963'>IBM Informix Long Username Buffer Overflow<\/a>","S639","S963","2012-04-06 02:06:34.0","2017-01-27 01:14:24.0","N","True","High",85],["33459/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=33459&signatureSubId=0&softwareVersion=6.0&releaseVersion=S963'>IE Memory Corruption Vulnerability<\/a>","S546","S963","2011-02-09 00:03:19.0","2017-01-27 01:14:24.0","N","True","High",85],["32879/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=32879&signatureSubId=0&softwareVersion=6.0&releaseVersion=S963'>ProFTPD TELNET IAC Stack Buffer Overflow<\/a>","S577","S963","2011-06-25 00:35:09.0","2017-01-27 01:14:24.0","N","True","High",85],["33260/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=33260&signatureSubId=0&softwareVersion=6.0&releaseVersion=S963'>Microsoft Office Visio Remote Code Execution<\/a>","S546","S963","2011-02-09 00:03:19.0","2017-01-27 01:14:24.0","N","True","High",85],["3793/1","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=3793&signatureSubId=1&softwareVersion=6.0&releaseVersion=S963'>ZENworks 6.5 Authentication Overflow<\/a>","S518","S963","2010-10-06 00:16:15.0","2017-01-27 01:14:24.0","N","True","High",85],["7821/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7821&signatureSubId=0&softwareVersion=6.0&releaseVersion=S963'>Adobe Flash Player Use After Free<\/a>","S963","S963","2017-01-27 01:14:24.0","2017-01-27 01:14:24.0","Y","low-mem-retired","High",85],["7811/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7811&signatureSubId=0&softwareVersion=6.0&releaseVersion=S963'>Tarantool Denial of Service<\/a>","S963","S963","2017-01-27 01:14:24.0","2017-01-27 01:14:24.0","N","True","High",85],["7824/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7824&signatureSubId=0&softwareVersion=6.0&releaseVersion=S962'>Cisco TelePresence MCU Remote Code Execution<\/a>","S962","S962","2017-01-25 22:13:40.0","2017-01-25 22:13:40.0","Y","False","High",85],["7814/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7814&signatureSubId=0&softwareVersion=6.0&releaseVersion=S962'>Adobe Flash Player Memory Corruption<\/a>","S962","S962","2017-01-25 22:13:40.0","2017-01-25 22:13:40.0","Y","low-mem-retired","High",85],["7815/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7815&signatureSubId=0&softwareVersion=6.0&releaseVersion=S962'>Adobe Flash Player Heap Buffer Overflow<\/a>","S962","S962","2017-01-25 22:13:40.0","2017-01-25 22:13:40.0","Y","low-mem-retired","High",85],["7816/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7816&signatureSubId=0&softwareVersion=6.0&releaseVersion=S962'>Adobe Flash Player Use After Free<\/a>","S962","S962","2017-01-25 22:13:40.0","2017-01-25 22:13:40.0","Y","low-mem-retired","High",85],["7818/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7818&signatureSubId=0&softwareVersion=6.0&releaseVersion=S962'>Adobe Flash Player Memory Corruption<\/a>","S962","S962","2017-01-25 22:13:40.0","2017-01-25 22:13:40.0","Y","low-mem-retired","High",85],["7820/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7820&signatureSubId=0&softwareVersion=6.0&releaseVersion=S962'>Adobe Flash Player Use After Free<\/a>","S962","S962","2017-01-25 22:13:40.0","2017-01-25 22:13:40.0","Y","low-mem-retired","High",85],["7202/1","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7202&signatureSubId=1&softwareVersion=6.0&releaseVersion=S962'>UDP eDonkey Activity<\/a>","S962","S962","2017-01-25 22:13:40.0","2017-01-25 22:13:40.0","N","True","Low",85],["11022/2","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=11022&signatureSubId=2&softwareVersion=6.0&releaseVersion=S962'>Overnet Client Scan<\/a>","S962","S962","2017-01-25 22:13:40.0","2017-01-25 22:13:40.0","N","True","Low",80],["7826/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7826&signatureSubId=0&softwareVersion=6.0&releaseVersion=S961'>Cisco WebEx Magic URL Arbitrary Remote Command Execution<\/a>","S961","S961","2017-01-25 01:00:22.0","2017-01-25 01:00:22.0","Y","low-mem-retired","High",85],["7826/1","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7826&signatureSubId=1&softwareVersion=6.0&releaseVersion=S961'>Cisco WebEx Magic URL Arbitrary Remote Command Execution<\/a>","S961","S961","2017-01-25 01:00:22.0","2017-01-25 01:00:22.0","Y","False","High",90],["7765/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7765&signatureSubId=0&softwareVersion=6.0&releaseVersion=S960'>Avtech IP Camera Command Injection<\/a>","S960","S960","2017-01-18 21:49:16.0","2017-01-18 21:49:16.0","Y","low-mem-retired","High",85],["7803/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7803&signatureSubId=0&softwareVersion=6.0&releaseVersion=S960'>Adobe Flash Player BitmapData Class Memory Corruption<\/a>","S960","S960","2017-01-18 21:49:16.0","2017-01-18 21:49:16.0","Y","low-mem-retired","High",85],["7801/0","<a href='http://tools.cisco.com/security/center/viewIpsSignature.x?signatureId=7801&signatureSubId=0&softwareVersion=6.0&releaseVersion=S960'>Adobe Flash Player Use After Free<\/a>","S960","S960","2017-01-18 21:49:16.0","2017-01-18 21:49:16.0","Y","low-mem-retired","High",85]];
+
+    // example of custom renderer function
+    function change(val){
+        if(val > 0){
+            return '<span style="color:green;">' + val + '</span>';
+        }else if(val < 0){
+            return '<span style="color:red;">' + val + '</span>';
+        }
+        return val;
+    }
+
+    // example of custom renderer function
+    function pctChange(val){
+        if(val > 0){
+            return '<span style="color:green;">' + val + '%</span>';
+        }else if(val < 0){
+            return '<span style="color:red;">' + val + '%</span>';
+        }
+        return val;
+    }
+    
+    
+	
+    // create the data store
+   // var fieldsArray=[["Signature ID"],["Signature Name"],["Original Release"],["Release"],["Release Date","date","Y-m-d H:i:s.u"],["Latest Release Date","date","Y-m-d H:i:s.u"],["Default Enabled"],["Default Retired"],["Alarm Severity"],["Fidelity"]];
+    //var store = new Ext.data.SimpleStore({fields:fieldsArray});
+    var store = new Ext.data.SimpleStore({
+        fields: [
+           {name: "Signature ID"},
+           {name: "Signature Name"},
+           {name: "Original Release" },
+           {name: "Release"},
+           {name: "Release Date", type: 'date', dateFormat: 'Y-m-d H:i:s.u'},
+           {name: "Latest Release Date", type: 'date', dateFormat: 'Y-m-d H:i:s.u'},
+           {name: "Default Enabled"},
+           {name: "Default Retired"},
+           {name: "Alarm Severity"},
+           {name: "Fidelity"}
+        ]
+    });
+    store.loadData(myData);
+   
+    // create the Grid
+    var grid = new Ext.grid.GridPanel({
+        store: store,
+		
+        columns: [
+                  {id:'SignatureID',header: "Signature ID", width: 100, sortable: false, dataIndex: "Signature ID",hidden:false},
+                  {id:'SignatureName',header: "Signature Name", width: 295, sortable: true,  dataIndex: "Signature Name",hidden:false},
+                  {id:'sigDate',header: "Latest Release Date", width: 120, sortable: true, renderer: Ext.util.Format.dateRenderer('Y M d'), dataIndex: "Latest Release Date",hidden:false},
+                  {header: "Alarm Severity", width: 100, sortable: false, dataIndex: "Alarm Severity",hidden:false},
+                  {header: "Release", width: 75, sortable: false, renderer: change, dataIndex: "Release",hidden:false},
+      			{header: "Original Release", width: 100, sortable: false,  dataIndex: "Original Release",hidden:true},            
+                  {header: "Release Date", width: 120, sortable: false, renderer: Ext.util.Format.dateRenderer('Y M d'),dataIndex: "Release Date",hidden:true},
+                  {header: "Default Enabled", width: 100, sortable: false, dataIndex: "Default Enabled",hidden:true},
+                  {header: "Default Retired", width: 100, sortable: false, dataIndex: "Default Retired",hidden:true},
+                  {header: "Fidelity", width: 100, sortable: false, dataIndex: "Fidelity",hidden:true}
+              ],
+        stripeRows: true,
+        //autoExpandColumn: 'SignatureName',
+        height:eval(ht),
+        width:710,
+        title:'IPS Signatures'
+    });
+
+    grid.render('grid-example');
+    
+
+});
+
+//
+</script>
+
+<script>
+
+// autocomplete code start
+	var $q = jQuery.noConflict();//assigning jquery to $q so that it does not conflict with other libraries
+	// autocomplete code goes here: START
+	//var $j = jQuery.noConflict();
+	var vendorJson = '';
+	var vendorId = '';
+	
+	$q(document).ready(function() {
+		$q.ajax({
+		type: "GET",
+		async: false,
+		url: "https://tools.cisco.com/security/center/getVendorList.x",
+		success: function(res){
+			vendorJson = res;
+		},
+		error: function(xhr) {
+					//alert('could not fetch vendor data');			
+		},
+		complete: function() {
+			vendorJson = eval(vendorJson);
+			$q( "#vendors" )
+			.autocomplete({
+				source: vendorJson,
+				minLength: 2,
+				select: function() {
+					
+				},
+				focus: function( event, ui ) {
+					$( "#vendors" ).val( ui.item.label );
+					return false;
+				}
+			})
+			.bind("autocompleteselect", function(event, ui) {
+				document.getElementById('vendorsName').value = ui.item.value;
+				
+				$q.each(vendorJson, function(i, vendors) {
+				
+					if ( vendors.value == ui.item.value) {
+						ui.item.value = vendors.label;
+					}
+					
+				});
+			});
+		}
+		})
+		
+		
+		
+	 });
+	 
+// autcomplete end
+
+function goToPage(formToSubmit){
+	//alert("In goToPage");
+	if(document.getElementById("basicSearch").style.display == 'block'){
+			formToSubmit = "searchDocForm";
+		}else{
+			formToSubmit = "ipsSignatureSearchForm";
+		}
+		var currentPageVal = document.getElementById('goToSelectBox').value;
+		eval("document."+formToSubmit+".currentPage.value = "+(parseInt(currentPageVal)));
+		if(document.getElementById('IPSSignatures').style.display == 'block'){
+			var input4 = document.createElement("input");
+			input4.type = "hidden";
+			input4.name = "searchFlag";
+			input4.value = "Advanced";
+			//document.ipsSignatureSearchForm.appendChild(input4);
+			eval("document."+formToSubmit+".appendChild(input4)");
+			}
+			else{
+				var input3 = document.createElement("input");
+				input3.type = "hidden";
+				input3.name = "searchFlag";
+				input3.value = "Basic";
+				//document.ipsSignatureSearchForm.appendChild(input3);
+				eval("document."+formToSubmit+".appendChild(input3)");
+				}
+
+		
+		var input5 = document.createElement("input");
+		input5.type = "hidden";
+		input5.name = "currentPageFlag";
+		input5.value = "Y";
+		//document.ipsSignatureSearchForm.appendChild(input5);
+		eval("document."+formToSubmit+".appendChild(input5)");
+		eval("document."+formToSubmit+".submit()");
+	}
+	
+	function changeNextPage(formToSubmit){
+		if(document.getElementById("basicSearch").style.display == 'block'){
+			formToSubmit = "searchDocForm";
+		}else{
+			formToSubmit = "ipsSignatureSearchForm";
+		}
+		
+		//alert("Form to submit is "+formToSubmit);
+		var currentPageVal = document.getElementById('goToSelectBox').value;
+		
+		eval("document."+formToSubmit+".currentPage.value = "+(parseInt(currentPageVal)+1));
+		
+		//Page size should be set 
+		eval("document."+formToSubmit+".itemsPerPage.value = document.getElementById('searchAlertChangePageSize').value");
+			
+		eval("document."+formToSubmit+".PAGE_START.value ="+1);
+		if(document.getElementById('IPSSignatures').style.display == 'block'){
+		var input4 = document.createElement("input");
+		input4.type = "hidden";
+		input4.name = "searchFlag";
+		input4.value = "Advanced";
+		eval("document."+formToSubmit+".appendChild(input4)");
+		}
+		else{
+			var input3 = document.createElement("input");
+			input3.type = "hidden";
+			input3.name = "searchFlag";
+			input3.value = "Basic";
+			eval("document."+formToSubmit+".appendChild(input3)");
+			}
+		var input5 = document.createElement("input");
+		input5.type = "hidden";
+		input5.name = "currentPageFlag";
+		input5.value = "Y";
+		eval("document."+formToSubmit+".appendChild(input5)");
+	
+
+		var query = "https://tools.cisco.com/security/center/ipshome.x#";
+		eval("document."+formToSubmit+".action = query");
+		eval("document."+formToSubmit+".submit()");
+		
+	}
+	function changePreviousPage(formToSubmit){
+		if(document.getElementById("basicSearch").style.display == 'block'){
+			formToSubmit = "searchDocForm";
+		}else{
+			formToSubmit = "ipsSignatureSearchForm";
+		}	
+		var currentPageVal = document.getElementById('goToSelectBox').value;
+		eval("document."+formToSubmit+".currentPage.value = "+(parseInt(currentPageVal) - 1));
+		//Page size should be set 
+		eval("document."+formToSubmit+".itemsPerPage.value = document.getElementById('searchAlertChangePageSize').value");
+
+		if(document.getElementById('IPSSignatures').style.display == 'block'){
+			var input4 = document.createElement("input");
+			input4.type = "hidden";
+			input4.name = "searchFlag";
+			input4.value = "Advanced";
+			eval("document."+formToSubmit+".appendChild(input4)");
+			}
+			else{
+				var input3 = document.createElement("input");
+				input3.type = "hidden";
+				input3.name = "searchFlag";
+				input3.value = "Basic";
+				eval("document."+formToSubmit+".appendChild(input3)");
+				}
+		var input5 = document.createElement("input");
+		input5.type = "hidden";
+		input5.name = "currentPageFlag";
+		input5.value = "Y";
+		eval("document."+formToSubmit+".appendChild(input5)");
+		
+		var query = "https://tools.cisco.com/security/center/ipshome.x#";
+		eval("document."+formToSubmit+".action = query");
+		eval("document."+formToSubmit+".submit()");
+	}
+	function changeCurrentPageSize(selectBox,formToSubmit){
+		
+		if(document.getElementById("basicSearch").style.display == 'block'){
+			formToSubmit = "searchDocForm";
+		}else{
+			formToSubmit = "ipsSignatureSearchForm";
+		}	
+		var changePageSize = selectBox.value;
+
+		//alert("The page size is "+changePageSize);
+		eval("document."+formToSubmit+".pageSize.value = "+changePageSize);
+		eval("document."+formToSubmit+".currentPage.value = 1");
+		eval("document."+formToSubmit+".itemsPerPage.value = "+changePageSize);
+
+		if(document.getElementById('IPSSignatures').style.display == 'block'){
+			var input4 = document.createElement("input");
+			input4.type = "hidden";
+			input4.name = "searchFlag";
+			input4.value = "Advanced";
+			document.ipsSignatureSearchForm.appendChild(input4);
+			}
+			else{
+				var input3 = document.createElement("input");
+				input3.type = "hidden";
+				input3.name = "searchFlag";
+				input3.value = "Basic";
+				document.ipsSignatureSearchForm.appendChild(input3);
+				}
+		var input5 = document.createElement("input");
+		input5.type = "hidden";
+		input5.name = "currentPageFlag";
+		input5.value = "Y";
+		document.ipsSignatureSearchForm.appendChild(input5);
+		
+		var query = "https://tools.cisco.com/security/center/ipshome.x#";
+		eval("document."+formToSubmit+".action = query");
+		eval("document."+formToSubmit+".submit()");
+	}
+
+	function changeSortOrderTitle(sortOrder,formToSubmit){
+		if(sortOrder == 'd'){
+			eval("document."+formToSubmit+".sortOrder.value = 'a'");
+		}
+		if(sortOrder == 'a'){
+			eval("document."+formToSubmit+".sortOrder.value = 'd'");
+		}
+		eval("document."+formToSubmit+".sortType.value = 'title'");
+		
+		eval("document."+formToSubmit+".submit()");
+	}
+
+	function resetRequestParams(){
+		document.alertSearchForm.pageSize.value = 0;
+		document.alertSearchForm.currentPage.value = 0;
+		document.alertSearchForm.itemsPerPage.value = 0;
+		return true;
+	}	
+
+	function submitIpsSigSearch(i, shortname, aTag){
+		var query = "https://tools.cisco.com/security/center/ipshome.x#"+shortname;
+		var input1 = document.createElement("input");
+		var publicationStart=document.ipsSignatureSearchForm.firstPublishedStartDate.value;
+		var publicationEnd=document.ipsSignatureSearchForm.firstPublishedEndDate.value;
+		
+		var lastUpdateStart=document.ipsSignatureSearchForm.lastPublishedStartDate.value;
+		var lastUpdateEnd=document.ipsSignatureSearchForm.lastPublishedEndDate.value;
+		
+		var do_submit = false;
+		var vendorUserInput = document.ipsSignatureSearchForm.vendors.value;
+		// to check manual vendor name entry
+		
+		if(vendorUserInput=='')
+
+		{
+			do_submit=true;
+		}
+		else{
+		$.each(vendorJson, function(i) {
+			if ( vendorJson[i].label.toLowerCase() == vendorUserInput.toLowerCase()) {
+				do_submit = true;
+				document.ipsSignatureSearchForm.vendorsName.value=vendorJson[i].value;
+			} 
+		});
+		}
+		// END
+		
+		if(validateDates(publicationStart,publicationEnd,'Original Release start date','Original Release end date') && validateDates(lastUpdateStart,lastUpdateEnd,'Last Updated Release start date','Last Updated Release end date') ){
+			
+			if (do_submit == false) {
+					$("#errormsg").append('Please select a vendor from the list.');
+					return false;
+			}
+				
+			input1.type = "hidden";
+			input1.name = "i";
+			input1.value = i;
+			document.ipsSignatureSearchForm.appendChild(input1);
+	
+			var input3 = document.createElement("input");
+			input3.type = "hidden";
+			input3.name = "shortna";
+			input3.value = shortname;
+			document.ipsSignatureSearchForm.appendChild(input3);
+			
+			var input4 = document.createElement("input");
+			input4.type = "hidden";
+			input4.name = "searchFlag";
+			input4.value = "Advanced";
+			document.ipsSignatureSearchForm.appendChild(input4);		
+			
+			document.ipsSignatureSearchForm.action = query;
+			document.ipsSignatureSearchForm.submit();
+			return true;
+		}
+		else
+			return false;
+	}
+
+	function submitIpsSigBasicSearch(i, shortname, aTag){
+		//alert("in basic search button");
+		var query = "https://tools.cisco.com/security/center/ipshome.x#"+shortname;
+		document.ipsSignatureSearchForm.firstPublishedStartDate.value = '';
+		document.ipsSignatureSearchForm.firstPublishedEndDate.value='';
+		document.ipsSignatureSearchForm.lastPublishedStartDate.value='';
+		document.ipsSignatureSearchForm.lastPublishedEndDate.value='';
+		document.ipsSignatureSearchForm.release.value='';
+		document.ipsSignatureSearchForm.vendors.value='';
+		document.ipsSignatureSearchForm.keyword.value='';
+		
+		var input1 = document.createElement("input");
+		input1.type = "hidden";
+		input1.name = "i";
+		input1.value = i;
+		document.searchDocForm.appendChild(input1);
+
+		var input3 = document.createElement("input");
+		input3.type = "hidden";
+		input3.name = "shortna";
+		input3.value = shortname;
+		document.searchDocForm.appendChild(input3);
+		
+		var input4 = document.createElement("input");
+		input4.type = "hidden";
+		input4.name = "searchFlag";
+		input4.value = "Basic";
+		document.searchDocForm.appendChild(input4);
+		
+		document.searchDocForm.action = query;
+		document.searchDocForm.submit();
+		
+	}
+	function validateDates(fromDate,toDate,fromdateMsg,endDateMsg){
+		
+		var objFromDate = fromDate;
+		var objToDate = toDate;
+		
+		if((objFromDate=='' || objFromDate==null) && (objToDate!='' && objToDate!=null))
+		{
+			
+			$("#errormsg").empty();
+			$("#errormsg").append("Please select a value for the"+" "+fromdateMsg);
+			return false; 
+		}
+		if((objToDate=='' || objToDate==null) && (objFromDate!='' && objFromDate!=null))
+		{
+			$("#errormsg").empty();
+			$("#errormsg").append("Please select a value for the"+" "+endDateMsg);
+			return false; 
+		}
+		
+		var fromdate = objFromDate.split("-");
+		var todate = objToDate.split("-");
+		var date1 = new Date(fromdate[0],(fromdate[1]-1),fromdate[2]);
+		var date2 = new Date(todate[0],(todate[1]-1),todate[2]);
+		var date3 = new Date();
+		
+		if(date1 > date2)
+		{
+	
+		$("#errormsg").empty();
+		$("#errormsg").append("The"+" "+fromdateMsg+" "+"should be earlier than the"+" "+endDateMsg);
+		return false; 
+		}
+		else if(date1 > date3)
+		{
+		
+		$("#errormsg").empty();
+		$("#errormsg").append("The"+" "+fromdateMsg+" "+"should be earlier than or equal to the current date.");
+		return false; 
+		}
+		else if(date2 > date3) 
+		{
+		
+		$("#errormsg").empty();
+		$("#errormsg").append("The"+" "+endDateMsg+" "+"should be earlier than or equal to the current date.");
+		return false; 
+		}
+		return true;
+
+		}
+
+		function clearForm(formVal){
+		if(formVal=='searchDocForm'){
+
+			document.searchDocForm.reset();
+			document.searchDocForm.keyword.value="";
+			document.searchDocForm.selectedCriteria.value="E";
+			document.searchDocForm.dateRange.value="All";
+			document.getElementById('noResult').style.display="none";
+			
+			}
+		else{
+		
+		document.ipsSignatureSearchForm.reset();
+		document.ipsSignatureSearchForm.keyword.value="";
+		document.ipsSignatureSearchForm.selectedCriteria.value="E";
+		document.ipsSignatureSearchForm.firstPublishedStartDate.value="";
+		document.ipsSignatureSearchForm.firstPublishedEndDate.value="";
+		document.ipsSignatureSearchForm.lastPublishedStartDate.value="";
+		document.ipsSignatureSearchForm.lastPublishedEndDate.value="";
+		document.ipsSignatureSearchForm.signatureAlarmSeverityFields.value="All";
+		document.ipsSignatureSearchForm.release.value="";
+		document.getElementById('vendors').value="";
+		document.getElementById('noResult').style.display="none";
+		}
+		$("#errormsg").empty();
+		
+
+		}
+
+
+
+
+	
+		
+</script>
+<div id="IError" style="display:none; color: red"><b>The Cisco SIO portal search is currently unavailable.</b></div>
+<div id="errormsg" style="color:red"></div>
+<h3>Search IPS Signatures</h3>
+
+			<div id="basicSearch" style="visibility: visible; display: block;">
+																<form name="searchDocForm" >
+									                                 <table border="0" cellpadding="0" cellspacing="0" id="bodytable">
+									                                  <tr>
+									                                    <td align="left" valign="top" colspan="10" style="font-family:Arial;font-color:#666666;font-size:11px;padding-top:10px;">Keyword: <img src="https://tools.cisco.com/security/center/img/questionmark_dkgrey.gif" title = "Enter keyword(s) on which to search."  border="0" align="top" alt="Enter keyword(s) on which to search." style="padding-left:2px;"/></td>
+									                                    <td style="padding-left:8px;padding-top:9px;" >
+									                                    	<input type="text" name="keyword" maxlength="250" size="25" value="" style="font-size:11px;font-family:arial;">
+									                                        <select name="selectedCriteria" style="font-size:11px;font-family:arial,helvetica,sans-serif"><option value="E">exact phrase</option>
+									                                          <option value="O">any of these words</option>
+									                                          <option value="A">all of these words</option></select>
+									                                   </td>
+									                                  </tr>								
+								                                      <tr>
+								                                          <td align="left" valign="top" colspan="10" style="font-family:Arial;font-color:#666666;font-size:11px;padding-top:10px;">Date Range:<img src="https://tools.cisco.com/security/center/img/questionmark_dkgrey.gif" title = "Select a date range to restrict search to a specific time period." border="0" align="top" alt="Select a date range to restrict search to a specific time period." style="padding-left:2px;"/></td>
+								                                          <td valign="middle" style="padding-left:8px;padding-top:9px;" >
+								                                              <select name="dateRange" style="font-size:11px;font-family:arial,helvetica,sans-serif"><option value="All">All</option>
+								                                                  <option value="Past 24 hours">Past 24 hours</option>
+								                                                  <option value="Past month">Past month</option>
+								                                                  <option value="Past 6 months">Past 6 months</option>
+								                                                  <option value="Past year">Past year</option></select>
+								                                          </td>
+								                                      </tr>
+																	<tr>
+																	  <td valign="top" align="left" style="font-family:Arial;font-color:#666666;font-size:11px;padding-top:10px;" colspan="10">
+																	  </td>
+																	  <td colspan="10" style="padding-top:20px;padding-left:6px;">
+																		 <input type="submit" value="Search" style="font-family:arial;" onClick="submitIpsSigBasicSearch(62, '', this)">
+																		
+																		  <input type="button" name="resetValue" style="font-family:arial;width: 45px;" value="Reset" onclick="clearForm('searchDocForm');"/>
+																		
+																		
+																		
+																		<a href="javascript:void(0);" onclick="displayAdvanced('IPSSignatures','linkclick');" style="font-size:12px;font-family:arial;color:#2f6681; padding-left:15px;text-decoration:none;">Advanced Search</a>
+																	  </td>
+																	</tr>
+														 		</table>
+														 		<input type="hidden" name="searchType" value="Basic" />
+																<input type= "hidden" name = "Signature ID" id ="Signature ID" value = 'false' size="30" />
+																<input type= "hidden" name = "Signature Name" id ="Signature Name" value = 'false' size="30" />
+																<input type= "hidden" name = "Latest Release Date" id ="Latest Release Date" value = 'false' size="30" />
+																<input type= "hidden" name = "Alarm Severity" id ="Alarm Severity" value = 'false' size="30" />
+																<input type= "hidden" name = "Release" id ="Release" value = 'false' size="30" />
+																<input type= "hidden" name = "Original Release" id ="Original Release" value = 'true' size="30" />
+																<input type= "hidden" name = "Release Date" id ="Release Date" value = 'true' size="30" />
+																<input type= "hidden" name = "Default Enabled" id ="Default Enabled" value = 'true' size="30" />
+																<input type= "hidden" name = "Default Retired" id ="Default Retired" value = 'true' size="30" />
+																<input type= "hidden" name = "Fidelity" id ="Fidelity" value = 'true' size="30" />
+																<input type="hidden" name="itemsPerPage" value="0">
+														 		<input type="hidden" name="currentPage" value="1"/>
+														 		<input type="hidden" name="pageSize" value="20"/>
+														 		<input type="hidden" name="sortOrder" value="d"/>
+														 		<input type="hidden" name="lastUpSortOrder" value="d"/>
+														 		<input type="hidden" name="sortType" value="date"/>
+														 		<input type="hidden" name="PAGE_START"/>																															 		
+								  							</form>											                
+			</div>  
+			
+<!-- IPS Signature Start -->
+
+			<div id="IPSSignatures" name="IPSSignatures" style="visibility: visible; display: none;">
+                     <form name="ipsSignatureSearchForm">                                                     
+                     <table border="0" cellpadding="0" cellspacing="0" id="bodytable">
+
+                           <tr>
+                                 <td align="left" valign="top" colspan="10" style="font-family:Arial;font-color:#666666;font-size:11px;padding-top:10px;">Keyword:
+                                 
+                                 <img src="https://tools.cisco.com/security/center/img/questionmark_dkgrey.gif" title = "Enter keyword(s) on which to search." border="0" align="top" alt="Enter keyword(s) on which to search." style="padding-left:2px;" />
+                                
+                                 </td>
+
+                                 <td style="padding-left:8px;padding-top:10px;" colspan="10">
+                                  <input type="text" name="keyword" maxlength="250" size="25" value="" style="font-size:11px;font-family:arial,helvetica,sans-serif">
+                                  <select name="selectedCriteria" style="font-size:11px;font-family:arial,helvetica,sans-serif"><option value="E">exact phrase</option>
+                                        <option value="O">any of these words</option>
+                                        <option value="A">all of these words</option></select>
+                                 </td>
+                           </tr>
+
+                           <tr>
+                                 <td align="left" valign="top" colspan="10" style="font-family:Arial;font-color:#666666;font-size:11px;padding-top:10px;">Original
+                                 Release between: 
+                                 
+                                 <img src="https://tools.cisco.com/security/center/img/questionmark_dkgrey.gif" title = "Enter a date range to restrict search to signatures originally released in a specific time period." border="0" align="top" alt="Enter a date range to restrict search to signatures originally released in a specific time period." style="padding-left:2px;"/>
+                                
+                                 </td>
+                                 <td style="padding-left:8px;padding-top:10px;" colspan="10">
+                                 <input type="text" name="firstPublishedStartDate" maxlength="250" size="25" value="" readonly="readonly" style="font-size:12px;font-family:arial,helvetica,sans-serif">
+                                 &nbsp;
+                                 <a href="javascript:void(0);" style="text-decoration: none" onclick="openCalendarAtMousePositionWithForm(event,'firstPublishedStartDate', 'ipsSignatureSearchForm');"> 
+                                 <img src="https://tools.cisco.com/security/center/img/cal.gif" alt="" border="0"/>
+                                 </a>&nbsp;&nbsp;&nbsp;and:&nbsp;&nbsp;&nbsp;
+                                 <input type="text" name="firstPublishedEndDate" maxlength="250" size="25" value="" readonly="readonly" style="font-size:12px;font-family:arial,helvetica,sans-serif">&nbsp;&nbsp;
+                                       <a href="javascript:void(0);" style="text-decoration: none" onclick="openCalendarAtMousePositionWithForm(event,'firstPublishedEndDate', 'ipsSignatureSearchForm');">
+                                      <img src="https://tools.cisco.com/security/center/img/cal.gif" alt="" border="0"/>
+                                       </a>
+                                </td>
+                           </tr>
+
+                           <tr>
+                                 <td align="left" valign="top" colspan="10"
+                                       style="font-family:Arial;font-color:#666666;font-size:11px;padding-top:10px;">Last Updated
+                                 Release between: <img src="https://tools.cisco.com/security/center/img/questionmark_dkgrey.gif" title = "Enter a date range to restrict search to signatures last updated in a specific time period." border="0" align="top" alt="Enter a date range to restrict search to signatures last updated in a specific time period." style="padding-left:2px;"/></td>
+                                 <td style="padding-left:8px;padding-top:10px;" colspan="10">
+                                 <input type="text" name="lastPublishedStartDate" maxlength="250" size="25" value="" readonly="readonly" style="font-size:12px;font-family:arial,helvetica,sans-serif">
+                                 &nbsp;
+                                 <a href="javascript:void(0);" style="text-decoration: none"
+                                       onclick="openCalendarAtMousePositionWithForm(event,'lastPublishedStartDate', 'ipsSignatureSearchForm');">
+                                       <img src="https://tools.cisco.com/security/center/img/cal.gif" alt="" border="0"/>
+                                       </a>&nbsp;&nbsp;&nbsp;and:&nbsp;&nbsp;&nbsp;
+                                       <input type="text" name="lastPublishedEndDate" maxlength="250" size="25" value="" readonly="readonly" style="font-size:12px;font-family:arial,helvetica,sans-serif">&nbsp;&nbsp;
+                                       <a href="javascript:void(0);" style="text-decoration: none"
+                                       onclick="openCalendarAtMousePositionWithForm(event,'lastPublishedEndDate', 'ipsSignatureSearchForm');">
+                                       <img src="https://tools.cisco.com/security/center/img/cal.gif" alt="" border="0"/></a>
+                                   </td>
+                           </tr>
+
+                           <tr>
+                                 <td align="left" valign="top" colspan="10"
+                                       style="font-family:Arial;font-color:#666666;font-size:11px;padding-top:10px;">Alarm
+                                 Severity: <img src="https://tools.cisco.com/security/center/img/questionmark_dkgrey.gif" title = "Select an Alarm Severity to restrict search to signatures with a particular Alarm Severity." border="0" align="top" alt="Select an Alarm Severity to restrict search to signatures with a particular Alarm Severity." style="padding-left:2px;"/></td>
+                                 <td style="padding-left:8px;padding-top:10px;" colspan="10">
+                                 <select name="signatureAlarmSeverityFields" style="font-size:11px;font-family:arial,helvetica,sans-serif"><option value="All">All</option>
+                                       <option value="High">High</option>
+                                       <option value="Medium">Medium</option>
+                                       <option value="Low">Low</option>
+                                       <option value="Informational">Information Only</option></select></td>
+                           </tr>
+
+                           <tr>
+                                 <td align="left" valign="top" colspan="10"
+                                       style="font-family:Arial;font-color:#666666;font-size:11px;padding-top:10px;">Release:
+                                <img src="https://tools.cisco.com/security/center/img/questionmark_dkgrey.gif" title = "Enter a Release to restrict search to signatures contained in a particular release." border="0" align="top" alt="Enter a Release to restrict search to signatures contained in a particular release." style="padding-left:2px;"/></td>
+                                 <td style="padding-left:8px;padding-top:10px;" colspan="10"><input type="text" name="release" maxlength="250" size="25" value="" style="font-size:11px;font-family:arial,helvetica,sans-serif"></td>
+                           </tr>
+
+                           <tr>
+                                 <td align="left" valign="top" colspan="10"
+                                       style="font-family:Arial;font-color:#666666;font-size:11px;padding-top:10px;">Vendor:
+                                <img src="https://tools.cisco.com/security/center/img/questionmark_dkgrey.gif" title = "Enter a Vendor to restrict search to signatures that pertain to a particular vendor's products." border="0" align="top" alt="Enter a Vendor to restrict search to signatures that pertain to a particular vendor's products." style="padding-left:2px;"/></td>
+                                 <td style="padding-left:8px;padding-top:10px;" colspan="10">
+                                 <input type="hidden" id="vendorsName" name="vendorsName"/>
+                                 <input id="vendors" name = "vendors" size="25" maxlength="250" value = ""style="font-size:11px;font-family:arial,helvetica,sans-serif"/></td>
+                           </tr>
+
+                           <tr>
+                                 <td align="right" valign="middle" colspan="10">&nbsp;</td>
+                                 <td style="padding-top:20px;padding-left:6px;" colspan="10">
+                                 <input type="hidden" name="method" value="ipsSignatureSearch"/>
+                                 
+                                 <input type="submit" value="Search" style="font-family:arial;" onClick="return submitIpsSigSearch(62, 'CiscoIPSSignatures', this)">
+                                 <input type="button" name="resetValue" style="font-family:arial;width: 51px;" value="Reset" onclick="clearForm('ipsSignatureSearchForm');"/>
+                                 
+                                 
+                                 <a
+                                       href="javascript:void()" onclick="displayBasic('basicSearch');"
+                                       style="font-size:12px;font-family:arial;color:#2f6681; padding-left:15px;text-decoration:none;">Return
+                                 to Basic Search</a></td>
+                           </tr>
+
+                     </table>
+                     
+                     
+                     
+                     
+                     
+                                        <!-- pagination hidden params -->
+			 		<input type="hidden" name="itemsPerPage" value="0">
+			 		
+			 		<input type="hidden" name="currentPage" value="1"/>
+			 		<input type="hidden" name="pageSize" value="20"/>
+			 		<input type="hidden" name="sortOrder" value="d"/>
+			 		<input type="hidden" name="lastUpSortOrder" value="d"/>
+			 		<input type="hidden" name="sortType" value="date"/>
+			 		<input type="hidden" name="PAGE_START"/>
+			 		<input type="hidden" name="searchRadio" value="IPSSignatures"/>
+			 		
+					<input type= "hidden" name = "Signature ID" id ="Signature ID" value = 'false' size="30" />
+					<input type= "hidden" name = "Signature Name" id ="Signature Name" value = 'false' size="30" />
+					<input type= "hidden" name = "Latest Release Date" id ="Latest Release Date" value = 'false' size="30" />
+					<input type= "hidden" name = "Alarm Severity" id ="Alarm Severity" value = 'false' size="30" />
+					<input type= "hidden" name = "Release" id ="Release" value = 'false' size="30" />
+					<input type= "hidden" name = "Original Release" id ="Original Release" value = 'true' size="30" />
+					<input type= "hidden" name = "Release Date" id ="Release Date" value = 'true' size="30" />
+					<input type= "hidden" name = "Default Enabled" id ="Default Enabled" value = 'true' size="30" />
+					<input type= "hidden" name = "Default Retired" id ="Default Retired" value = 'true' size="30" />
+					<input type= "hidden" name = "Fidelity" id ="Fidelity" value = 'true' size="30" />															 			 		
+	 		
+                     </form>
+                     </div>	
+                     <div style="margin-left:526px; margin-top: -20px;position: absolute;" id="searchSecurityLink"><a href="https://tools.cisco.com/security/center/Search.x" style="color:#2f6681;">Search All Security Resources</a><img src="https://tools.cisco.com/security/center/img/questionmark_dkgrey.gif" title = "Use this link to Search All Resources." border="0" align="top" alt="Use this link to Search All Resources." style="padding-left:2px;"/></div>									
+                     <div style="clear: both;"></div>
+                     <!-- IPS Signature End -->
+                     <br><br>
+                     <!-- IPS Signature Result Grid Start -->
+						<link rel="stylesheet" type="text/css" href="https://tools.cisco.com/security/center/extjs_grid/resources/css/ext-all.css" />
+						<link rel="stylesheet" type="text/css" href="https://tools.cisco.com/security/center/extjs_grid/examples.css" />
+						<style>
+							#grid-example table td div{
+								padding-top:4px;
+								padding-bottom:4px;
+								padding-left:5px;
+								padding-right:3px;
+								color:black;
+							}
+							#ext-gen6{
+								padding-top:4px;
+								padding-bottom:4px;
+								padding-left:5px;
+								padding-right:3px;
+							}		
+							#grid-example a:link, #grid-example a:visited, #grid-example a:hover {
+							  color: #2f6681; 
+							} 
+ 
+ 
+				
+						</style>
+						
+    					<div id="grid-example"></div>                 
+                     <!-- IPS Signature Result Grid End --> 
+					 
+					<table id="pubtypeinfo"
+						class="apps-table-grey-setwidth" width="710"
+						summary="Search Results" style="font-size:100%">
+						<!-- Pagination Code Begins -->
+						<tr>
+							<th colspan='5'>
+							<div style="height:20px">
+							<div>
+							<div class="pagi-div-left"><span>Items Per Page: </span> <select
+								id="searchAlertChangePageSize"
+								onChange="changeCurrentPageSize(this,'ipsSignatureSearchForm');"
+								class="pagi-select">
+								<option value="10" >10</option>
+								<option value="20" selected>20</option>
+								<option value="50" >50</option>
+								<option value="100"  >100</option>
+							</select></div>
+							<div class="pagi-div">
+								<span>
+									
+			                            
+										
+										Showing 1-20 of 9647
+										
+									
+								</span>  <span>|</span>
+
+
+								 
+								
+									<span class="pagi-arrow">&lt; Previous</span>
+								
+								
+								
+								
+								
+								
+							<select
+								id="goToSelectBox"
+								onChange="goToPage('ipsSignatureSearchForm');"
+								class="pagi-select">
+								
+								
+								
+								<option value="1" selected>
+								1
+								</option>
+								
+								<option value="2" >
+								2
+								</option>
+								
+								<option value="3" >
+								3
+								</option>
+								
+								<option value="4" >
+								4
+								</option>
+								
+								<option value="5" >
+								5
+								</option>
+								
+								<option value="6" >
+								6
+								</option>
+								
+								<option value="7" >
+								7
+								</option>
+								
+								<option value="8" >
+								8
+								</option>
+								
+								<option value="9" >
+								9
+								</option>
+								
+								<option value="10" >
+								10
+								</option>
+								
+								<option value="11" >
+								11
+								</option>
+								
+								<option value="12" >
+								12
+								</option>
+								
+								<option value="13" >
+								13
+								</option>
+								
+								<option value="14" >
+								14
+								</option>
+								
+								<option value="15" >
+								15
+								</option>
+								
+								<option value="16" >
+								16
+								</option>
+								
+								<option value="17" >
+								17
+								</option>
+								
+								<option value="18" >
+								18
+								</option>
+								
+								<option value="19" >
+								19
+								</option>
+								
+								<option value="20" >
+								20
+								</option>
+								
+								<option value="21" >
+								21
+								</option>
+								
+								<option value="22" >
+								22
+								</option>
+								
+								<option value="23" >
+								23
+								</option>
+								
+								<option value="24" >
+								24
+								</option>
+								
+								<option value="25" >
+								25
+								</option>
+								
+								<option value="26" >
+								26
+								</option>
+								
+								<option value="27" >
+								27
+								</option>
+								
+								<option value="28" >
+								28
+								</option>
+								
+								<option value="29" >
+								29
+								</option>
+								
+								<option value="30" >
+								30
+								</option>
+								
+								<option value="31" >
+								31
+								</option>
+								
+								<option value="32" >
+								32
+								</option>
+								
+								<option value="33" >
+								33
+								</option>
+								
+								<option value="34" >
+								34
+								</option>
+								
+								<option value="35" >
+								35
+								</option>
+								
+								<option value="36" >
+								36
+								</option>
+								
+								<option value="37" >
+								37
+								</option>
+								
+								<option value="38" >
+								38
+								</option>
+								
+								<option value="39" >
+								39
+								</option>
+								
+								<option value="40" >
+								40
+								</option>
+								
+								<option value="41" >
+								41
+								</option>
+								
+								<option value="42" >
+								42
+								</option>
+								
+								<option value="43" >
+								43
+								</option>
+								
+								<option value="44" >
+								44
+								</option>
+								
+								<option value="45" >
+								45
+								</option>
+								
+								<option value="46" >
+								46
+								</option>
+								
+								<option value="47" >
+								47
+								</option>
+								
+								<option value="48" >
+								48
+								</option>
+								
+								<option value="49" >
+								49
+								</option>
+								
+								<option value="50" >
+								50
+								</option>
+								
+								<option value="51" >
+								51
+								</option>
+								
+								<option value="52" >
+								52
+								</option>
+								
+								<option value="53" >
+								53
+								</option>
+								
+								<option value="54" >
+								54
+								</option>
+								
+								<option value="55" >
+								55
+								</option>
+								
+								<option value="56" >
+								56
+								</option>
+								
+								<option value="57" >
+								57
+								</option>
+								
+								<option value="58" >
+								58
+								</option>
+								
+								<option value="59" >
+								59
+								</option>
+								
+								<option value="60" >
+								60
+								</option>
+								
+								<option value="61" >
+								61
+								</option>
+								
+								<option value="62" >
+								62
+								</option>
+								
+								<option value="63" >
+								63
+								</option>
+								
+								<option value="64" >
+								64
+								</option>
+								
+								<option value="65" >
+								65
+								</option>
+								
+								<option value="66" >
+								66
+								</option>
+								
+								<option value="67" >
+								67
+								</option>
+								
+								<option value="68" >
+								68
+								</option>
+								
+								<option value="69" >
+								69
+								</option>
+								
+								<option value="70" >
+								70
+								</option>
+								
+								<option value="71" >
+								71
+								</option>
+								
+								<option value="72" >
+								72
+								</option>
+								
+								<option value="73" >
+								73
+								</option>
+								
+								<option value="74" >
+								74
+								</option>
+								
+								<option value="75" >
+								75
+								</option>
+								
+								<option value="76" >
+								76
+								</option>
+								
+								<option value="77" >
+								77
+								</option>
+								
+								<option value="78" >
+								78
+								</option>
+								
+								<option value="79" >
+								79
+								</option>
+								
+								<option value="80" >
+								80
+								</option>
+								
+								<option value="81" >
+								81
+								</option>
+								
+								<option value="82" >
+								82
+								</option>
+								
+								<option value="83" >
+								83
+								</option>
+								
+								<option value="84" >
+								84
+								</option>
+								
+								<option value="85" >
+								85
+								</option>
+								
+								<option value="86" >
+								86
+								</option>
+								
+								<option value="87" >
+								87
+								</option>
+								
+								<option value="88" >
+								88
+								</option>
+								
+								<option value="89" >
+								89
+								</option>
+								
+								<option value="90" >
+								90
+								</option>
+								
+								<option value="91" >
+								91
+								</option>
+								
+								<option value="92" >
+								92
+								</option>
+								
+								<option value="93" >
+								93
+								</option>
+								
+								<option value="94" >
+								94
+								</option>
+								
+								<option value="95" >
+								95
+								</option>
+								
+								<option value="96" >
+								96
+								</option>
+								
+								<option value="97" >
+								97
+								</option>
+								
+								<option value="98" >
+								98
+								</option>
+								
+								<option value="99" >
+								99
+								</option>
+								
+								<option value="100" >
+								100
+								</option>
+								
+								<option value="101" >
+								101
+								</option>
+								
+								<option value="102" >
+								102
+								</option>
+								
+								<option value="103" >
+								103
+								</option>
+								
+								<option value="104" >
+								104
+								</option>
+								
+								<option value="105" >
+								105
+								</option>
+								
+								<option value="106" >
+								106
+								</option>
+								
+								<option value="107" >
+								107
+								</option>
+								
+								<option value="108" >
+								108
+								</option>
+								
+								<option value="109" >
+								109
+								</option>
+								
+								<option value="110" >
+								110
+								</option>
+								
+								<option value="111" >
+								111
+								</option>
+								
+								<option value="112" >
+								112
+								</option>
+								
+								<option value="113" >
+								113
+								</option>
+								
+								<option value="114" >
+								114
+								</option>
+								
+								<option value="115" >
+								115
+								</option>
+								
+								<option value="116" >
+								116
+								</option>
+								
+								<option value="117" >
+								117
+								</option>
+								
+								<option value="118" >
+								118
+								</option>
+								
+								<option value="119" >
+								119
+								</option>
+								
+								<option value="120" >
+								120
+								</option>
+								
+								<option value="121" >
+								121
+								</option>
+								
+								<option value="122" >
+								122
+								</option>
+								
+								<option value="123" >
+								123
+								</option>
+								
+								<option value="124" >
+								124
+								</option>
+								
+								<option value="125" >
+								125
+								</option>
+								
+								<option value="126" >
+								126
+								</option>
+								
+								<option value="127" >
+								127
+								</option>
+								
+								<option value="128" >
+								128
+								</option>
+								
+								<option value="129" >
+								129
+								</option>
+								
+								<option value="130" >
+								130
+								</option>
+								
+								<option value="131" >
+								131
+								</option>
+								
+								<option value="132" >
+								132
+								</option>
+								
+								<option value="133" >
+								133
+								</option>
+								
+								<option value="134" >
+								134
+								</option>
+								
+								<option value="135" >
+								135
+								</option>
+								
+								<option value="136" >
+								136
+								</option>
+								
+								<option value="137" >
+								137
+								</option>
+								
+								<option value="138" >
+								138
+								</option>
+								
+								<option value="139" >
+								139
+								</option>
+								
+								<option value="140" >
+								140
+								</option>
+								
+								<option value="141" >
+								141
+								</option>
+								
+								<option value="142" >
+								142
+								</option>
+								
+								<option value="143" >
+								143
+								</option>
+								
+								<option value="144" >
+								144
+								</option>
+								
+								<option value="145" >
+								145
+								</option>
+								
+								<option value="146" >
+								146
+								</option>
+								
+								<option value="147" >
+								147
+								</option>
+								
+								<option value="148" >
+								148
+								</option>
+								
+								<option value="149" >
+								149
+								</option>
+								
+								<option value="150" >
+								150
+								</option>
+								
+								<option value="151" >
+								151
+								</option>
+								
+								<option value="152" >
+								152
+								</option>
+								
+								<option value="153" >
+								153
+								</option>
+								
+								<option value="154" >
+								154
+								</option>
+								
+								<option value="155" >
+								155
+								</option>
+								
+								<option value="156" >
+								156
+								</option>
+								
+								<option value="157" >
+								157
+								</option>
+								
+								<option value="158" >
+								158
+								</option>
+								
+								<option value="159" >
+								159
+								</option>
+								
+								<option value="160" >
+								160
+								</option>
+								
+								<option value="161" >
+								161
+								</option>
+								
+								<option value="162" >
+								162
+								</option>
+								
+								<option value="163" >
+								163
+								</option>
+								
+								<option value="164" >
+								164
+								</option>
+								
+								<option value="165" >
+								165
+								</option>
+								
+								<option value="166" >
+								166
+								</option>
+								
+								<option value="167" >
+								167
+								</option>
+								
+								<option value="168" >
+								168
+								</option>
+								
+								<option value="169" >
+								169
+								</option>
+								
+								<option value="170" >
+								170
+								</option>
+								
+								<option value="171" >
+								171
+								</option>
+								
+								<option value="172" >
+								172
+								</option>
+								
+								<option value="173" >
+								173
+								</option>
+								
+								<option value="174" >
+								174
+								</option>
+								
+								<option value="175" >
+								175
+								</option>
+								
+								<option value="176" >
+								176
+								</option>
+								
+								<option value="177" >
+								177
+								</option>
+								
+								<option value="178" >
+								178
+								</option>
+								
+								<option value="179" >
+								179
+								</option>
+								
+								<option value="180" >
+								180
+								</option>
+								
+								<option value="181" >
+								181
+								</option>
+								
+								<option value="182" >
+								182
+								</option>
+								
+								<option value="183" >
+								183
+								</option>
+								
+								<option value="184" >
+								184
+								</option>
+								
+								<option value="185" >
+								185
+								</option>
+								
+								<option value="186" >
+								186
+								</option>
+								
+								<option value="187" >
+								187
+								</option>
+								
+								<option value="188" >
+								188
+								</option>
+								
+								<option value="189" >
+								189
+								</option>
+								
+								<option value="190" >
+								190
+								</option>
+								
+								<option value="191" >
+								191
+								</option>
+								
+								<option value="192" >
+								192
+								</option>
+								
+								<option value="193" >
+								193
+								</option>
+								
+								<option value="194" >
+								194
+								</option>
+								
+								<option value="195" >
+								195
+								</option>
+								
+								<option value="196" >
+								196
+								</option>
+								
+								<option value="197" >
+								197
+								</option>
+								
+								<option value="198" >
+								198
+								</option>
+								
+								<option value="199" >
+								199
+								</option>
+								
+								<option value="200" >
+								200
+								</option>
+								
+								<option value="201" >
+								201
+								</option>
+								
+								<option value="202" >
+								202
+								</option>
+								
+								<option value="203" >
+								203
+								</option>
+								
+								<option value="204" >
+								204
+								</option>
+								
+								<option value="205" >
+								205
+								</option>
+								
+								<option value="206" >
+								206
+								</option>
+								
+								<option value="207" >
+								207
+								</option>
+								
+								<option value="208" >
+								208
+								</option>
+								
+								<option value="209" >
+								209
+								</option>
+								
+								<option value="210" >
+								210
+								</option>
+								
+								<option value="211" >
+								211
+								</option>
+								
+								<option value="212" >
+								212
+								</option>
+								
+								<option value="213" >
+								213
+								</option>
+								
+								<option value="214" >
+								214
+								</option>
+								
+								<option value="215" >
+								215
+								</option>
+								
+								<option value="216" >
+								216
+								</option>
+								
+								<option value="217" >
+								217
+								</option>
+								
+								<option value="218" >
+								218
+								</option>
+								
+								<option value="219" >
+								219
+								</option>
+								
+								<option value="220" >
+								220
+								</option>
+								
+								<option value="221" >
+								221
+								</option>
+								
+								<option value="222" >
+								222
+								</option>
+								
+								<option value="223" >
+								223
+								</option>
+								
+								<option value="224" >
+								224
+								</option>
+								
+								<option value="225" >
+								225
+								</option>
+								
+								<option value="226" >
+								226
+								</option>
+								
+								<option value="227" >
+								227
+								</option>
+								
+								<option value="228" >
+								228
+								</option>
+								
+								<option value="229" >
+								229
+								</option>
+								
+								<option value="230" >
+								230
+								</option>
+								
+								<option value="231" >
+								231
+								</option>
+								
+								<option value="232" >
+								232
+								</option>
+								
+								<option value="233" >
+								233
+								</option>
+								
+								<option value="234" >
+								234
+								</option>
+								
+								<option value="235" >
+								235
+								</option>
+								
+								<option value="236" >
+								236
+								</option>
+								
+								<option value="237" >
+								237
+								</option>
+								
+								<option value="238" >
+								238
+								</option>
+								
+								<option value="239" >
+								239
+								</option>
+								
+								<option value="240" >
+								240
+								</option>
+								
+								<option value="241" >
+								241
+								</option>
+								
+								<option value="242" >
+								242
+								</option>
+								
+								<option value="243" >
+								243
+								</option>
+								
+								<option value="244" >
+								244
+								</option>
+								
+								<option value="245" >
+								245
+								</option>
+								
+								<option value="246" >
+								246
+								</option>
+								
+								<option value="247" >
+								247
+								</option>
+								
+								<option value="248" >
+								248
+								</option>
+								
+								<option value="249" >
+								249
+								</option>
+								
+								<option value="250" >
+								250
+								</option>
+								
+								<option value="251" >
+								251
+								</option>
+								
+								<option value="252" >
+								252
+								</option>
+								
+								<option value="253" >
+								253
+								</option>
+								
+								<option value="254" >
+								254
+								</option>
+								
+								<option value="255" >
+								255
+								</option>
+								
+								<option value="256" >
+								256
+								</option>
+								
+								<option value="257" >
+								257
+								</option>
+								
+								<option value="258" >
+								258
+								</option>
+								
+								<option value="259" >
+								259
+								</option>
+								
+								<option value="260" >
+								260
+								</option>
+								
+								<option value="261" >
+								261
+								</option>
+								
+								<option value="262" >
+								262
+								</option>
+								
+								<option value="263" >
+								263
+								</option>
+								
+								<option value="264" >
+								264
+								</option>
+								
+								<option value="265" >
+								265
+								</option>
+								
+								<option value="266" >
+								266
+								</option>
+								
+								<option value="267" >
+								267
+								</option>
+								
+								<option value="268" >
+								268
+								</option>
+								
+								<option value="269" >
+								269
+								</option>
+								
+								<option value="270" >
+								270
+								</option>
+								
+								<option value="271" >
+								271
+								</option>
+								
+								<option value="272" >
+								272
+								</option>
+								
+								<option value="273" >
+								273
+								</option>
+								
+								<option value="274" >
+								274
+								</option>
+								
+								<option value="275" >
+								275
+								</option>
+								
+								<option value="276" >
+								276
+								</option>
+								
+								<option value="277" >
+								277
+								</option>
+								
+								<option value="278" >
+								278
+								</option>
+								
+								<option value="279" >
+								279
+								</option>
+								
+								<option value="280" >
+								280
+								</option>
+								
+								<option value="281" >
+								281
+								</option>
+								
+								<option value="282" >
+								282
+								</option>
+								
+								<option value="283" >
+								283
+								</option>
+								
+								<option value="284" >
+								284
+								</option>
+								
+								<option value="285" >
+								285
+								</option>
+								
+								<option value="286" >
+								286
+								</option>
+								
+								<option value="287" >
+								287
+								</option>
+								
+								<option value="288" >
+								288
+								</option>
+								
+								<option value="289" >
+								289
+								</option>
+								
+								<option value="290" >
+								290
+								</option>
+								
+								<option value="291" >
+								291
+								</option>
+								
+								<option value="292" >
+								292
+								</option>
+								
+								<option value="293" >
+								293
+								</option>
+								
+								<option value="294" >
+								294
+								</option>
+								
+								<option value="295" >
+								295
+								</option>
+								
+								<option value="296" >
+								296
+								</option>
+								
+								<option value="297" >
+								297
+								</option>
+								
+								<option value="298" >
+								298
+								</option>
+								
+								<option value="299" >
+								299
+								</option>
+								
+								<option value="300" >
+								300
+								</option>
+								
+								<option value="301" >
+								301
+								</option>
+								
+								<option value="302" >
+								302
+								</option>
+								
+								<option value="303" >
+								303
+								</option>
+								
+								<option value="304" >
+								304
+								</option>
+								
+								<option value="305" >
+								305
+								</option>
+								
+								<option value="306" >
+								306
+								</option>
+								
+								<option value="307" >
+								307
+								</option>
+								
+								<option value="308" >
+								308
+								</option>
+								
+								<option value="309" >
+								309
+								</option>
+								
+								<option value="310" >
+								310
+								</option>
+								
+								<option value="311" >
+								311
+								</option>
+								
+								<option value="312" >
+								312
+								</option>
+								
+								<option value="313" >
+								313
+								</option>
+								
+								<option value="314" >
+								314
+								</option>
+								
+								<option value="315" >
+								315
+								</option>
+								
+								<option value="316" >
+								316
+								</option>
+								
+								<option value="317" >
+								317
+								</option>
+								
+								<option value="318" >
+								318
+								</option>
+								
+								<option value="319" >
+								319
+								</option>
+								
+								<option value="320" >
+								320
+								</option>
+								
+								<option value="321" >
+								321
+								</option>
+								
+								<option value="322" >
+								322
+								</option>
+								
+								<option value="323" >
+								323
+								</option>
+								
+								<option value="324" >
+								324
+								</option>
+								
+								<option value="325" >
+								325
+								</option>
+								
+								<option value="326" >
+								326
+								</option>
+								
+								<option value="327" >
+								327
+								</option>
+								
+								<option value="328" >
+								328
+								</option>
+								
+								<option value="329" >
+								329
+								</option>
+								
+								<option value="330" >
+								330
+								</option>
+								
+								<option value="331" >
+								331
+								</option>
+								
+								<option value="332" >
+								332
+								</option>
+								
+								<option value="333" >
+								333
+								</option>
+								
+								<option value="334" >
+								334
+								</option>
+								
+								<option value="335" >
+								335
+								</option>
+								
+								<option value="336" >
+								336
+								</option>
+								
+								<option value="337" >
+								337
+								</option>
+								
+								<option value="338" >
+								338
+								</option>
+								
+								<option value="339" >
+								339
+								</option>
+								
+								<option value="340" >
+								340
+								</option>
+								
+								<option value="341" >
+								341
+								</option>
+								
+								<option value="342" >
+								342
+								</option>
+								
+								<option value="343" >
+								343
+								</option>
+								
+								<option value="344" >
+								344
+								</option>
+								
+								<option value="345" >
+								345
+								</option>
+								
+								<option value="346" >
+								346
+								</option>
+								
+								<option value="347" >
+								347
+								</option>
+								
+								<option value="348" >
+								348
+								</option>
+								
+								<option value="349" >
+								349
+								</option>
+								
+								<option value="350" >
+								350
+								</option>
+								
+								<option value="351" >
+								351
+								</option>
+								
+								<option value="352" >
+								352
+								</option>
+								
+								<option value="353" >
+								353
+								</option>
+								
+								<option value="354" >
+								354
+								</option>
+								
+								<option value="355" >
+								355
+								</option>
+								
+								<option value="356" >
+								356
+								</option>
+								
+								<option value="357" >
+								357
+								</option>
+								
+								<option value="358" >
+								358
+								</option>
+								
+								<option value="359" >
+								359
+								</option>
+								
+								<option value="360" >
+								360
+								</option>
+								
+								<option value="361" >
+								361
+								</option>
+								
+								<option value="362" >
+								362
+								</option>
+								
+								<option value="363" >
+								363
+								</option>
+								
+								<option value="364" >
+								364
+								</option>
+								
+								<option value="365" >
+								365
+								</option>
+								
+								<option value="366" >
+								366
+								</option>
+								
+								<option value="367" >
+								367
+								</option>
+								
+								<option value="368" >
+								368
+								</option>
+								
+								<option value="369" >
+								369
+								</option>
+								
+								<option value="370" >
+								370
+								</option>
+								
+								<option value="371" >
+								371
+								</option>
+								
+								<option value="372" >
+								372
+								</option>
+								
+								<option value="373" >
+								373
+								</option>
+								
+								<option value="374" >
+								374
+								</option>
+								
+								<option value="375" >
+								375
+								</option>
+								
+								<option value="376" >
+								376
+								</option>
+								
+								<option value="377" >
+								377
+								</option>
+								
+								<option value="378" >
+								378
+								</option>
+								
+								<option value="379" >
+								379
+								</option>
+								
+								<option value="380" >
+								380
+								</option>
+								
+								<option value="381" >
+								381
+								</option>
+								
+								<option value="382" >
+								382
+								</option>
+								
+								<option value="383" >
+								383
+								</option>
+								
+								<option value="384" >
+								384
+								</option>
+								
+								<option value="385" >
+								385
+								</option>
+								
+								<option value="386" >
+								386
+								</option>
+								
+								<option value="387" >
+								387
+								</option>
+								
+								<option value="388" >
+								388
+								</option>
+								
+								<option value="389" >
+								389
+								</option>
+								
+								<option value="390" >
+								390
+								</option>
+								
+								<option value="391" >
+								391
+								</option>
+								
+								<option value="392" >
+								392
+								</option>
+								
+								<option value="393" >
+								393
+								</option>
+								
+								<option value="394" >
+								394
+								</option>
+								
+								<option value="395" >
+								395
+								</option>
+								
+								<option value="396" >
+								396
+								</option>
+								
+								<option value="397" >
+								397
+								</option>
+								
+								<option value="398" >
+								398
+								</option>
+								
+								<option value="399" >
+								399
+								</option>
+								
+								<option value="400" >
+								400
+								</option>
+								
+								<option value="401" >
+								401
+								</option>
+								
+								<option value="402" >
+								402
+								</option>
+								
+								<option value="403" >
+								403
+								</option>
+								
+								<option value="404" >
+								404
+								</option>
+								
+								<option value="405" >
+								405
+								</option>
+								
+								<option value="406" >
+								406
+								</option>
+								
+								<option value="407" >
+								407
+								</option>
+								
+								<option value="408" >
+								408
+								</option>
+								
+								<option value="409" >
+								409
+								</option>
+								
+								<option value="410" >
+								410
+								</option>
+								
+								<option value="411" >
+								411
+								</option>
+								
+								<option value="412" >
+								412
+								</option>
+								
+								<option value="413" >
+								413
+								</option>
+								
+								<option value="414" >
+								414
+								</option>
+								
+								<option value="415" >
+								415
+								</option>
+								
+								<option value="416" >
+								416
+								</option>
+								
+								<option value="417" >
+								417
+								</option>
+								
+								<option value="418" >
+								418
+								</option>
+								
+								<option value="419" >
+								419
+								</option>
+								
+								<option value="420" >
+								420
+								</option>
+								
+								<option value="421" >
+								421
+								</option>
+								
+								<option value="422" >
+								422
+								</option>
+								
+								<option value="423" >
+								423
+								</option>
+								
+								<option value="424" >
+								424
+								</option>
+								
+								<option value="425" >
+								425
+								</option>
+								
+								<option value="426" >
+								426
+								</option>
+								
+								<option value="427" >
+								427
+								</option>
+								
+								<option value="428" >
+								428
+								</option>
+								
+								<option value="429" >
+								429
+								</option>
+								
+								<option value="430" >
+								430
+								</option>
+								
+								<option value="431" >
+								431
+								</option>
+								
+								<option value="432" >
+								432
+								</option>
+								
+								<option value="433" >
+								433
+								</option>
+								
+								<option value="434" >
+								434
+								</option>
+								
+								<option value="435" >
+								435
+								</option>
+								
+								<option value="436" >
+								436
+								</option>
+								
+								<option value="437" >
+								437
+								</option>
+								
+								<option value="438" >
+								438
+								</option>
+								
+								<option value="439" >
+								439
+								</option>
+								
+								<option value="440" >
+								440
+								</option>
+								
+								<option value="441" >
+								441
+								</option>
+								
+								<option value="442" >
+								442
+								</option>
+								
+								<option value="443" >
+								443
+								</option>
+								
+								<option value="444" >
+								444
+								</option>
+								
+								<option value="445" >
+								445
+								</option>
+								
+								<option value="446" >
+								446
+								</option>
+								
+								<option value="447" >
+								447
+								</option>
+								
+								<option value="448" >
+								448
+								</option>
+								
+								<option value="449" >
+								449
+								</option>
+								
+								<option value="450" >
+								450
+								</option>
+								
+								<option value="451" >
+								451
+								</option>
+								
+								<option value="452" >
+								452
+								</option>
+								
+								<option value="453" >
+								453
+								</option>
+								
+								<option value="454" >
+								454
+								</option>
+								
+								<option value="455" >
+								455
+								</option>
+								
+								<option value="456" >
+								456
+								</option>
+								
+								<option value="457" >
+								457
+								</option>
+								
+								<option value="458" >
+								458
+								</option>
+								
+								<option value="459" >
+								459
+								</option>
+								
+								<option value="460" >
+								460
+								</option>
+								
+								<option value="461" >
+								461
+								</option>
+								
+								<option value="462" >
+								462
+								</option>
+								
+								<option value="463" >
+								463
+								</option>
+								
+								<option value="464" >
+								464
+								</option>
+								
+								<option value="465" >
+								465
+								</option>
+								
+								<option value="466" >
+								466
+								</option>
+								
+								<option value="467" >
+								467
+								</option>
+								
+								<option value="468" >
+								468
+								</option>
+								
+								<option value="469" >
+								469
+								</option>
+								
+								<option value="470" >
+								470
+								</option>
+								
+								<option value="471" >
+								471
+								</option>
+								
+								<option value="472" >
+								472
+								</option>
+								
+								<option value="473" >
+								473
+								</option>
+								
+								<option value="474" >
+								474
+								</option>
+								
+								<option value="475" >
+								475
+								</option>
+								
+								<option value="476" >
+								476
+								</option>
+								
+								<option value="477" >
+								477
+								</option>
+								
+								<option value="478" >
+								478
+								</option>
+								
+								<option value="479" >
+								479
+								</option>
+								
+								<option value="480" >
+								480
+								</option>
+								
+								<option value="481" >
+								481
+								</option>
+								
+								<option value="482" >
+								482
+								</option>
+								
+								<option value="483" >
+								483
+								</option>
+								
+								
+								
+								
+								
+							</select> 
+							
+							
+							
+							
+							
+							
+							
+							
+							
+							
+					    		<a class="pagi-arrow" href="javascript:void(0);" style="color: #2f6681;" onClick="javascript:changeNextPage('ipsSignatureSearchForm');">Next &gt;</a>																			    		
+					    	
+							
+					    	</div>
+							</div>
+							</div>
+							</th>
+						</tr>
+						<!-- Pagination Code Ends -->
+					 </table>					 
+			                                                  	
+		                                               	</div>
+												<!-- infotab.signatures End-->
+												                                               	
+                                                <!-- infotab.tdb Start-->
+		                                                <div class="infotab gd02v1" id="info-ThreatDefenseBulletins">
+		                                                	
+			                                                  	<div style="width: 200px;"><img src="https://tools.cisco.com/security/center/img/loading.gif"/>&nbsp; Loading .... </div>
+			                                                  	<br>
+		                                                  	
+		                                                  	
+		                                                </div>
+                                                <!-- infotab.tdb End-->
+
+                                                <!-- infotab.Activity Trends Start-->
+		                                                <div class="infotab gd02v1" id="info-">
+		                                                	
+			                                                  	<div style="width: 200px;"><img src="https://tools.cisco.com/security/center/img/loading.gif"/>&nbsp; Loading .... </div>
+			                                                  	<br>
+		                                                  	
+		                                                  	
+		                                                </div>
+                                                <!-- infotab.Activity Trends End-->
+		                                                
+                                               	<!-- infotab.related products start-->     
+	                                                	<div class="infotab gd02v1" id="info-CiscoIPSSignatureDownloads">
+		                                                  	<div>
+		                                                  		<!--Tab Description-->
+		                                                  		 <br>
+		                                                  		<!--This tab holds only free form HTML as contents-->
+		                                                  		
+																			
+																
+																			
+																
+																			
+																
+																			
+																				
+																			
+																
+																			
+																
+																			
+																
+																			
+																
+		                                                  		Download the latest Cisco IPS Signature packages for:
+<p>&nbsp;</p>
+<p align="left"><a href="http://www.cisco.com/cisco/software/release.html?mdfid=282671829&catid=268438162&softwareid=282549755&release=null&relind=null&rellifecycle=null&reltype=null&i=rp">Cisco IPS Appliances and Modules</a></br></p>
+<p align="left"><a href="http://www.cisco.com/cisco/software/release.html?mdfid=280033778&catid=268438162&softwareid=282773979&release=S556&relind=AVAILABLE&rellifecycle=&reltype=latest&i=rp">Cisco Security Manager</a></br></p>
+<p align="left"><a href="http://www.cisco.com/cisco/software/release.html?mdfid=281442967&catid=268438162&softwareid=280775022&release=S555&relind=AVAILABLE&rellifecycle=&reltype=latest&i=rp">Cisco IOS IPS</a></br></p>
+<p align="left"><a href="http://www.cisco.com/cisco/software/release.html?mdfid=282941564&softwareid=282159854&i=rp">Cisco IOS IPS for Cisco Configuration Professional</a></b></br></p>
+<p>&nbsp;</p>
+		                                                  	</div>
+		                                                </div>                                               	
+                                               	<!-- infotab.related products End-->
+                                               	
+                                               	<!-- infotab. Resources Start-->
+		                                              		                                               	
+	                                                	<div class="infotab gd02v1" id="info-">
+
+	                                                	
+		                                                  	<div style="width: 200px;"><img src="https://tools.cisco.com/security/center/img/loading.gif"/>&nbsp; Loading .... </div>
+		                                                  	<br>
+	                                                  	
+														 	
+		                                                </div>
+	                                                
+                                               	<!-- infotab. Resources End-->
+
+		                                                
+
+ 												<!-- Other Tabs Start-->    
+												<style>
+															h2 {
+																display: block;
+																font-size: 14px;
+																margin-top: 0.83em;
+																margin-bottom: 10px;
+																margin-left: 0;
+																margin-right: 0;
+																font-weight: bold;
+																color: #444;
+															}
+															
+														</style>
+												
+													
+														
+														
+															<!-- info-rss start-->														
+															
+															<!-- info-rss end-->
+																												
+															
+														
+														
+															<!-- info-rss start-->														
+															
+															<!-- info-rss end-->
+																												
+															
+														
+														
+															<!-- info-rss start-->														
+															
+															<!-- info-rss end-->
+																												
+															
+															
+																<div class="infotab gd02v1" id="info-DocumentationTraining">
+																	<div >
+																	 <p> </p> <br/> 
+																	 	
+																			
+																		
+																			
+																		
+																			
+																			
+																				 <br/>
+																			
+																		
+																			
+																		
+																			
+																		
+																			
+																		
+																			
+																		
+																	 <h2>FAQ</h2>
+<a href="http://www.cisco.com/web/about/security/intelligence/ips_sig_faq.html">Cisco Intrusion Prevention System Signatures Frequently Asked Questions</a><br/><br/>
+
+<p><h2>White Papers</h2></p>
+<a href="http://www.cisco.com/en/US/prod/collateral/vpndevc/ps5729/ps5713/ps12156/white_paper_c11-726365.html">Testing the Efficacy of Cisco IPS</a><br/><a href="http://www.cisco.com/web/about/security/intelligence/protecting_ics_networks_with_cisco_ips.html">Protecting Industrial Control Systems with Cisco IPS Industrial Signatures</a><br/>
+<a href="http://www.cisco.com/web/about/security/intelligence/01_30_IPS-SigRet.html">Cisco IPS Signature Retirement and the Default Configuration</a><br/>
+<a href="http://www.cisco.com/web/about/security/intelligence/ips_custom_sigs.html">Writing Custom Signatures for the Cisco Intrusion Prevention System</a><br/>
+<a href="http://www.cisco.com/web/about/security/intelligence/ips_sig_quick_ref.html">Cisco Intrusion Prevention System Engine Quick Reference</a><br/><br/>
+
+<h2>Blog Posts</h2>
+<a href="http://blogs.cisco.com/security/cisco-ips-signature-retirement-and-the-default-configuration/">Cisco IPS Signature Retirement and the Default Configuration</a><br/>
+<a href="http://blogs.cisco.com/security/custom_signature_writing_for_cisco_ips/">Custom Signature Writing Guide for Cisco IPS </a><br/>
+<a href="http://blogs.cisco.com/security/extracting-exe-drop-malware/">Extracting EXE Drop Malware</a><br/>
+<a href="http://blogs.cisco.com/security/exploring_heap-based_buffer_overflows_with_the_application_verifier/">Exploring Heap-Based Buffer Overflows with the Application Verifier</a><br/>
+<a href="http://blogs.cisco.com/security/think_before_plugging_in/">Think Before Plugging In</a><br/>
+<a href="http://blogs.cisco.com/security/cisco_security_intelligence_operations_and_microsoft_tuesday/">Cisco Security and Microsoft Tuesday</a><br/>
+<a href="http://blogs.cisco.com/security/seeing_the_big_picture_with_global_correlation/">Seeing the Big Picture with Global Core</a><br/>
+<a href="http://blogs.cisco.com/security/finding-a-needle-in-a-pcap/">Finding a Needle in a PCAP</a><br/>
+<a href="http://blogs.cisco.com/security/cisco_sensorbase_confirms_microsoft_video_activex_vulnerability_exploited/">Cisco SensorBase Confirms Microsoft Video ActiveX Vulnerability Exploited In The Wild</a><br/><br/>
+
+<p><h2>Cisco IPS Tech Talks</h2></p>
+<a href="https://supportforums.cisco.com/docs/DOC-15558">Secrets of the Signatures, Part 1 (Feb 2011)</a><br/>
+<a href="https://supportforums.cisco.com/docs/DOC-16599">Secrets of the Signatures, Part 2 (Apr 2011)</a><br/>
+<a href="https://supportforums.cisco.com/docs/DOC-18223">Evasions - TCP/IP Examples and Handling</a><br/>
+<a href="https://supportforums.cisco.com/docs/DOC-14204">Global Correlation</a><br/><br/>
+
+<p><h2>Media</h2></p>
+<a href="http://www.youtube.com/watch?v=PhbZuQbQ8CM">Cisco IPS Performance and Efficacy for the Data Center with Clustered ASA5585-X</a><br/><br/>				
+																	</div>
+																</div>			
+															
+														
+														
+															<style>
+																		h2 {
+																			display: block;
+																			font-size: 14px;
+																			margin-top: 0.83em;
+																			margin-bottom: 10px;
+																			margin-left: 0;
+																			margin-right: 0;
+																			font-weight: bold;
+																			color: #444;
+																		}
+																		p{
+																			display: block;
+																			margin-top: 0;
+																			margin-bottom: 0;
+																			margin-left: 0;
+																			margin-right: 0;
+																		}
+																		
+																	</style>
+															
+															<!-- info-rss start-->														
+															
+															<!-- info-rss end-->
+																												
+															
+														
+														
+															<!-- info-rss start-->														
+															
+															<!-- info-rss end-->
+																												
+															
+														
+														
+															<!-- info-rss start-->														
+															
+															<!-- info-rss end-->
+																												
+															
+															
+																<div class="infotab gd02v1" id="info-IPSSupportCommunity">
+																	<div >
+																	 <p>Access to technical IPS information and solutions that help resolve issues that Cisco customers may encounter. Post discussions, documents, comments, and respond to questions regarding your Cisco IPS/IDS equipment or software. <br/> </p> <br/> 
+																	 	
+																			
+																		
+																			
+																		
+																			
+																		
+																			
+																		
+																			
+																		
+																			
+																			
+																				 <br/>
+																			
+																		
+																			
+																		
+																	 <a href="https://supportforums.cisco.com/community/netpro/security/intrusion-prevention?view=overview">Main</a><br/>
+<a href="https://supportforums.cisco.com/community/netpro/security/intrusion-prevention?view=overview">All Content</a><br/>
+<a href="https://supportforums.cisco.com/community/netpro/security/intrusion-prevention?view=discussions">Discussions</a><br/>
+<a href="https://supportforums.cisco.com/community/netpro/security/intrusion-prevention?view=documents">Documents</a><br/>
+<a href="https://supportforums.cisco.com/community/netpro/security/intrusion-prevention?view=blog">Blog</a><br/>
+<a href="https://supportforums.cisco.com/community/netpro/security/intrusion-prevention?view=poll">Polls</a><br/>
+<a href="https://supportforums.cisco.com/community/netpro/security/intrusion-prevention?view=video">Videos</a> <br/><br/>				
+																	</div>
+																</div>			
+															
+														
+														
+															<!-- info-rss start-->														
+															
+															<!-- info-rss end-->
+																												
+															
+															
+																<div class="infotab gd02v1" id="info-IPSTemplates">
+																	<div >
+																	 <p>The 7.3.1 IPS release contains a deployment profile feature (threat profiles) for Edge, Data Center, SCADA, and Web Applications scenarios. As an additional reference point, the IPS Signature Development Team is providing a simple zipped CSV file containing a list of signatures explicitly enabled in each threat profile. An updated file will be available here whenever the threat profiles are updated.
+<br> </p> <br/> 
+																	 	
+																			
+																		
+																			
+																		
+																			
+																		
+																			
+																		
+																			
+																		
+																			
+																		
+																			
+																			
+																				 <br/>
+																			
+																		
+																	 <a href="http://www.cisco.com/assets/about/security/ips/templates/S939-v16.zip">2016-09-01 Version 16 S939</a>
+<br />
+<a href="http://www.cisco.com/assets/about/security/ips/templates/S921-v15.zip">2016-05-19 Version 15 S921</a>
+<br />
+<a href="http://www.cisco.com/assets/about/security/ips/templates/S908-v14.zip">2016-02-10 Version 14 S908</a>
+<br />
+<a href="http://www.cisco.com/assets/about/security/ips/templates/S894-v13.zip">2015-11-10 Version 13 S894</a>
+<br />
+<a href="http://www.cisco.com/assets/about/security/ips/templates/S881-v12.zip">2015-08-11 Version 12 S881</a>
+<br />
+<a href="http://www.cisco.com/assets/about/security/ips/templates/S866-v11.zip">2015-05-06 Version 11 S866</a>
+<br />
+<a href="http://www.cisco.com/assets/about/security/ips/templates/S849-v10.zip">2015-02-04 Version 10 S849</a>
+<br />
+<a href="http://www.cisco.com/assets/about/security/ips/templates/S833-v9.zip">2014-11-05 Version 9 S833</a>
+<br />
+<a href="http://www.cisco.com/assets/about/security/ips/templates/S813-v8.zip">2014-08-06 Version 8 S813</a>
+<br />
+<a href="http://www.cisco.com/assets/about/security/ips/templates/S797-v7.zip">2014-05-13 Version 7 S797</a>
+<br />
+<a href="http://www.cisco.com/assets/about/security/ips/templates/s764-v6.zip">2014-01-17 Version 6 S764</a>
+<br /><br/>				
+																	</div>
+																</div>			
+															
+														
+		                                        <!-- Other Tabs End-->   
+		                                        
+		                                        <!-- infotab.related products start-->     
+	                                                	<div class="infotab gd02v1" id="info-ContactUS" style="padding-top:20px;padding-left:20px;">
+	                                                	
+	                                                	<div id="myDiv" style="display:none;color: red;">
+		                                                  		<b>Please fill out all mandatory fields.</b>
+		                                                  		</div>
+	                                                	
+	                                                	
+		                                                  	<div id="show" style="padding-bottom: 20px;">
+		                                                  		<!--Tab Description-->
+		                                                  		<div style="font-family:Arial;color:#666666;font-size:11px;"><p>Do you need to report a false positive? If you believe you have identified a benign trigger, please provide the following information and we will determine if the signature can be improved. Include the signature and sub-signature id, traffic sample(s), alert context buffers, and any additional relevant information.</p>
+<p></br></p>
+<p>Need a custom signature? Is there specific traffic you want to identify on your network? Do you think that the signature would be useful to other customers? We can provide guidance on developing a custom signature. If it is universally applicable, we may be able to test and maintain it by releasing it in our standard signature set. Please include a detailed summary of the issue, traffic sample, and any associated information you think may be useful.</p></div>
+		                                                  		<div style="font-family:Arial;color:#A2A2A2;font-size:11px;padding-bottom:10px;padding-top:10px;">* indicates a required field</div>
+		                                                  		<!--This tab holds only free form HTML as contents-->
+		                                                  		
+		                                                  		
+		                                                  		
+		                                                  		
+		                                                  		<form name="checkForm" method="post" action="https://tools.cisco.com/security/center/sendMail.x" enctype="multipart/form-data"></form>
+		                                                  		
+		                                                  		
+		                                                  	
+		                                                  <form name="fileForm" method="post" action="https://tools.cisco.com/security/center/sendMail.x" enctype="multipart/form-data">
+		                                                  		<input type="hidden" id="redirect" value="https://tools.cisco.com/security/center/sendMail.x" />
+		                                                  		<input type="hidden" id="newJvm" value="https://tools.cisco.com/go/redirect/SendContactUsMail" />
+		                                                  		<table >
+		                                                  		<tbody>
+		                                                  			<tr>
+		                                                  				
+		                                                  			</tr>
+		                                                  			<tr>
+		                                                  				
+		                                                  			</tr>
+		                                                  			<tr></tr>
+		                                                  			<tr>
+		                                                  				
+		                                                  			</tr>
+		                                                  			<tr>
+		                                                  				
+		                                                  			</tr>
+		                                                  			<tr>
+		                                                  				
+		                                                  			</tr>
+		                                                  			<tr>
+		                                                  				
+		                                                  			</tr>
+		                                                  			<tr></tr>
+		                                                  			
+		                                                  			<tr>
+		                                                  			
+		                                                  				
+		                                                  				
+		                                                  			</tr>
+		                                                  			
+		                                                  			<tr>
+		                                                  				<td style="padding-bottom:10px;"></td>
+		                                                  				<td style="padding-bottom:10px;"></td>
+		                                                  			</tr>
+		                                                  			
+		                                                  			
+		                                                  			
+		                                                  		
+		                                                  			
+		                                                  			<tr>
+		                                                  				
+		                                                  			</tr>
+		                                                  			
+		                                                  			
+		                                                  			
+		                                                  			
+		                                                  			
+		                                                  			
+		                                                  			
+		                                                  			
+		                                                  			
+		                                                  			<tr>
+		                                                  			<td></td>
+		                                                  			
+		                                                  			<td style="padding-left:9px;">
+		                                                  			<span>
+		                                                  			<input type="button" onclick="validateEmail();" value="Submit" id="btnSubmit" disabled="disabled"/>
+		                                                  			</span>
+		                                                  			<span style="padding-left:15px;">
+		                                                  			<a href="javascript:void(0);" onclick="resetForm();"  style="font-color:#B0B0B0;">Clear Form</a>
+		                                                  			</span>
+		                                                  			</td>
+		                                                  			</tr>
+		                                                  		</tbody>
+		                                                  		</table>
+		                                                  			
+		                                                  		
+		                                                  	</form>
+		                                                  		
+		                                                  		
+		                                                  		
+		                                                  	</div>
+		                                                  
+		                                                </div>                                               	
+                                               	<!-- infotab.related products End-->
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                        
+		                                             
+		                                                
+                                               	
+                                            </div>									
+																			
+								</td><!-- framework-content-main -->
+								
+								<td id="framework-column-right">
+									<div id="framework-content-right"><a name="content"></a>
+									
+										
+										<!------------------------------------------------------------------------------------------------------------------------------------------------------><!------------------------------------------------------BEGIN OF RELATED LINKS & FEEDBACK SECTION-------------------------------------------------------><!------------------------------------------------------------------------------------------------------------------------------------------------------><style>.csp-gd-right{width:220px;}.csp-cc23-pilot{border-radius: 5px;background-image: url('https://www.static-cisco.com/assets/pilot/cc23/cc23v2_bg.gif');background-repeat: repeat-x;padding: 16px;border: 1px solid #ccc;position: relative;height: auto;border-right: 1px solid #ccc;text-align: left;color: #525252;font-family: arial,helvetica,clean,sans-serif;line-height: 1.66em;empty-cells: hide;font-size-adjust: none;}.csp-cc23-pilot h3{font-size: 12px;font-weight: bold;color: #444;line-height: 1.5em;}.csp-cc23-pilot h4{font-size: 12px;font-weight: bold;margin-bottom: 3px;line-height: 1.5em;}.csp-rhn_lists{list-style-type: none;margin: 0px 0px 20px 0px;list-style-position: outside;}.csp-framework-column-right{vertical-align: top;}.csp-mlb-pilot a, .csp-mlb-pilot a:link{color: #2970a6;text-decoration: none;}</style><div class='csp-gd12v2-pilot'>	<div class='csp-gd-right'><!------------------------------------------------------------------------------------------------------------------------------------------------------><!----------------------------------------------------------BEGIN OF RELATED LINKS SECTION--------------------------------------------------------------><!------------------------------------------------------------------------------------------------------------------------------------------------------>    															<div class='csp-mlb-pilot csp-cc23-pilot csp-cc23v2-pilot'>			<h3 style='border-bottom:1px solid #BBB;padding-bottom:4px;margin-bottom:8px'>Related Links</h3>			<div class='csp-rc-content'>				<h4 style='font-weight:bold'>Cisco IPS Products & Services</h4>				<ul class='csp-rhn_lists'>					<li><a href='http://www.cisco.com/en/US/products/ps6076/serv_group_home.html'>Cisco Services for IPS</a></li>					<li><a href='http://www.cisco.com/en/US/prod/collateral/vpndevc/ps5729/ps5713/ps4077/ips_industrial_control_protection.pdf'>Cisco IPS Industrial Control Protection</a></li>					<li><a href='http://www.cisco.com/en/US/products/ps6634/index.html'>Cisco IOS IPS</a></li>					<li><a href='http://www.cisco.com/en/US/products/ps5729/Products_Sub_Category_Home.html'>Cisco Intrusion Prevention System (IPS)</a></li>				</ul>				<h4 style='font-weight:bold'>Solutions</h4>				<ul class='csp-rhn_lists'>					<li><a href='http://www.cisco.com/en/US/products/hw/vpndevc/solutions.html'>Security Solutions</a></li>				</ul>				<h4 style='font-weight:bold'>Support</h4>				<ul class='csp-rhn_lists'>					<li><a href='https://supportforums.cisco.com/community/netpro/security/intrusion-prevention'>Cisco IPS Support Community</a></li>					<li><a href='http://tools.cisco.com/ServiceRequestTool/create/launch.do'>Create New TAC Service Request</a></li>					<li><a href='http://www.cisco.com/go/license'>Licensing</a></li>				</ul>			</div>		</div><!------------------------------------------------------------------------------------------------------------------------------------------------------><!-----------------------------------------------------------END OF RELATED LINKS SECTION---------------------------------------------------------------><!------------------------------------------------------------------------------------------------------------------------------------------------------>    														<br/><!------------------------------------------------------------------------------------------------------------------------------------------------------><!--------------------------------------------------------------BEGIN OF FEEDBACK SECTION---------------------------------------------------------------><!------------------------------------------------------------------------------------------------------------------------------------------------------><style type = 'text/css'> a{ cursor: pointer;}</style>	<link rel='stylesheet' href='https://tools.cisco.com/security/center/css/FeedBack_Style.css' type='text/css' />	<script type='text/javascript'>function openNewWindow(){window.open('https://secure.opinionlab.com/ccc01/o.asp?id=iaCiLUcl&referer='+window.location.href+'','_blank','width=550,height=325,left=420,top=400,scrollbars=yes');}</script><script type='text/javascript'>function checkInput(){  }</script><div id='siofeedback_tab' class='siofeedback_tab_right' tabindex='0'><a href='javascript:openNewWindow();' ><div><span></span></div></a></div>
+
+										
+									</div>
+								<!-- framework-content-right -->
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+			</tbody>
+			</table>
+
+
+        
+        
+                <!--googleoff: index--><!--googleoff: snippet-->
+        
+        
+        <!--Dummy Output-->
+   
+        
+    </div>
+    
+    <!-- Begin fat footer ssi from -->
+
+    
+
+
+
+
+
+
+
+
+
+
+
+ 
+       
+       <div class="row"><div class="col">   
+       
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Responsive Fat Footer -->
+<nav id="fw-fatfooter">
+    <div>
+	    <h4><a href="//www.cisco.com/c/en/us/solutions/index.html">Information For </a></h4>
+	    <ul>
+			<li><a href="//www.cisco.com/cisco/web/solutions/small_business/index.html">Small Business</a></li>
+		    <li><a href="//www.cisco.com/web/midsize/index.html">Midsize Business</a></li>
+			<li><a href="//www.cisco.com/c/en/us/solutions/service-provider/index.html">Service Provider</a></li>
+			<li><a href="//www.cisco.com/c/en/us/solutions/executive-perspectives/index.html">Executives</a></li>
+	    </ul>
+		<h4><a href="//www.cisco.com/web/strategy/index.html">Industries</a>
+			<div class="submenu-container">
+				<button class="menu-button" value="Open Industries submenu" title="Open Industries submenu"><span></span></button>
+				<div class="fatfooter-submenu">
+				    <ul>
+<li><a href="//www.cisco.com/web/strategy/automotive/index.html">Automotive</a></li>
+<li><a href="//www.cisco.com/web/strategy/cpg/index.html">Consumer Packaged Goods</a></li>
+
+<li><a href="//www.cisco.com/web/strategy/education/index.html">Education</a></li>
+
+<li><a href="//www.cisco.com/web/strategy/energy/index.html">Energy</a></li>
+
+<li><a href="//www.cisco.com/web/strategy/financial/index.html">Financial Services</a></li>
+
+<li><a href="//www.cisco.com/web/strategy/government/index.html">Government</a></li>
+
+<li><a href="//www.cisco.com/web/strategy/healthcare/index.html">Healthcare</a></li>
+
+<li><a href="//www.cisco.com/web/strategy/hospitality/index.html">Hospitality</a></li>
+
+<li><a href="http://www.cisco.com/web/strategy/life-sciences/index.html">Life Sciences</a></li>
+
+
+				    </ul>
+				    <ul>
+<li><a href="//www.cisco.com/web/strategy/manufacturing/index.html">Manufacturing</a></li>
+
+<li><a href="//www.cisco.com/web/strategy/materials-mining/index.html">Materials and Mining</a></li>
+<li><a href="//www.cisco.com/web/strategy/public_sector/index.html">Public Sector</a></li>
+
+<li><a href="//www.cisco.com/web/strategy/retail/index.html">Retail</a></li>
+
+<li><a href="//www.cisco.com/web/strategy/smart_connected_communities.html">Smart+Connected Communities</a></li>
+
+<li><a href="//www.cisco.com/web/strategy/sports/index.html">Sports and Entertainment</a></li>
+
+<li><a href="//www.cisco.com/web/strategy/transportation/index.html">Transportation</a></li>
+
+<li><a href="//www.cisco.com/web/strategy/workplace/index.html">Workspace Transformation</a></li>
+
+				    </ul>
+					<button class="close-button" value="Close submenu" title="Close submenu"><span></span><span></span></button>
+				</div>
+			</div>
+		</h4>
+
+            <h4><a href="https://marketplace.cisco.com/">Marketplace</a></h4>
+
+	    <h4><a href="//www.cisco.com/web/siteassets/contacts/index.html">Contacts</a></h4>
+	    <ul>
+			<li><a href="//www.cisco.com/web/siteassets/contacts/index.html">Contact Cisco</a></li>
+
+<li><a href="//www.cisco.com/c/en/us/solutions/partner-ecosystem.html">Meet our Partners</a></li>
+<li><a href="http://tools.cisco.com/WWChannels/LOCATR/openBasicSearch.do">Find a Reseller</a></li>
+
+
+	    </ul>
+    </div>
+
+    <div>
+	    <h4><a href="//newsroom.cisco.com/">News &amp; Alerts</a></h4>
+	    <ul>
+			<li><a href="//newsroom.cisco.com/">Newsroom</a></li>
+			<li><a href="//blogs.cisco.com/">Blogs</a></li>
+			<li><a href="//www.cisco.com/c/en/us/support/web/tsd-products-field-notice-summary.html">Field Notices</a></li>
+			<li><a href="//tools.cisco.com/security/center/publicationListing.x">Security Advisories</a></li>
+	    </ul>
+
+	    <h4><a href="http://www.cisco.com/web/solutions/trends/index.html">Technology Trends</a></h4>
+	    <ul>
+
+<li><a href="http://www.cisco.com/web/solutions/trends/cloud/index.html">Cloud</a></li>
+<li><a href="http://www.cisco.com/web/solutions/trends/iot/overview.html">Internet of Things (IoT)</a></li>
+<li><a href="http://www.cisco.com/web/solutions/trends/sdn/index.html">Software Defined Networking (SDN)</a></li>
+
+		</ul>
+    </div>
+
+    <div>
+	    <h4><a href="//www.cisco.com/c/en/us/support/index.html">Support</a></h4>
+	    <ul>
+			<li><a href="//www.cisco.com/cisco/software/navigator.html?i=!ch">Downloads</a></li>
+			<li><a href="//www.cisco.com/cisco/web/psa/default.html">Documentation</a></li>
+	    </ul>
+
+	    <h4><a href="https://communities.cisco.com/welcome">Communities</a></h4>
+	    <ul>
+			<li><a href="http://developer.cisco.com/">DevNet</a></li>
+			<li><a href="https://learningnetwork.cisco.com">Learning Network</a></li>
+			<li><a href="https://supportforums.cisco.com/index.jspa">Support Community</a></li>
+	    </ul>
+
+		<h4><a href="//video.cisco.com/">Video Portal</a>
+			<div class="submenu-container">
+				<button class="menu-button" value="Open Video Portal submenu" title="Open Video Portal submenu"><span></span></button>
+				<div class="fatfooter-submenu">
+				    <ul>
+						<li><a href="http://video.cisco.com/#category/videos/certifications" target="_blank">Certifications</a></li>
+						<li><a href="http://video.cisco.com/#category/videos/events" target="_blank">Events</a></li>
+						<li><a href="http://video.cisco.com/#category/videos/industries" target="_blank">Industries</a></li>
+						<li><a href="http://video.cisco.com/#category/videos/inside-cisco" target="_blank">Inside Cisco</a></li>
+						<li><a href="http://video.cisco.com/#category/videos/products" target="_blank">Products</a></li>
+
+
+					 </ul>
+
+				    <ul>
+						<li><a href="http://video.cisco.com/#category/videos/service-provider" target="_blank">Service Provider</a></li>
+						<li><a href="http://video.cisco.com/#category/videos/services" target="_blank">Services</a></li>
+						<li><a href="http://video.cisco.com/#category/videos/technology-trends" target="_blank">Technology Trends</a></li>
+						<li><a href="http://video.cisco.com/#category/videos/techwisetv" target="_blank">TechWiseTV</a></li>
+				    </ul>
+					<button class="close-button" value="Close submenu" title="Close submenu"><span></span><span></span></button>
+				</div>
+			</div>
+		</h4>
+    </div>
+
+    <div>
+	    <h4><a href="//www.cisco.com/web/about/index.html">About Cisco</a></h4>
+	    <ul>
+			<li><a href="//investor.cisco.com/">Investor Relations</a></li>
+			<li><a href="//csr.cisco.com/" target="_blank">Corporate Social Responsibility</a></li>
+			<li><a href="//csr.cisco.com/pages/environment" target="_blank">Environmental Sustainability</a></li>
+<li><a href="http://www.cisco.com/web/about/doing_business/trust-center/index.html">Trust and Transparency Center</a></li>
+
+                <li><a href="//www.cisco.com/c/r/en/us/internet-of-everything-ioe/tomorrow-starts-here/index.html?CAMPAIGN=tomorrowstartshere&COUNTRY_SITE=us&POSITION=link&REFERRING_SITE=Cisco.com+homepage&CREATIVE=homepage+fat+footer">
+The Next Wave of The Internet</a></li>
+
+<li><a href="http://weare.cisco.com">Our People</a></li>
+
+	    </ul>
+
+<h4><a href="//www.cisco.com/web/about/ac40/about_cisco_careers_home.html">Careers</a></h4>
+<ul>
+<li><a href="http://jobs.cisco.com/?utm_source=careersite&utm_campaign=CDC_MainFooter" target="_blank">Search Jobs</a></li>
+<li><a href="//www.cisco.com/web/about/ac40/life_at_cisco.html">Life at Cisco</a></li>
+</ul>
+
+
+
+	    <h4>Programs</h4>
+	    <ul>
+			<li><a href="//www.cisco.com/web/communities/vip/index.html">Cisco Designated VIP Program</a></li>
+			<li><a href="//www.cisco.com/web/solutions/trends/cisco-powered/index.html">Cisco Powered</a></li>
+			<li><a href="http://www.cisco.com/web/ciscocapital/americas/us/index.html">Financing Options</a></li>
+
+	    </ul>
+    </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- begin: responsive fat footer re-use wrapper-->
+
+ 
+<!-- end: responsive fat footer re-use wrapper-->
+ 
+ 
+       
+       </div></div>   
+       
+ 
+
+<!-- end: responsive fat footer re-use wrapper-->
+      
+      
+    <!-- End fat footer ssi from -->
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer id="fw-footer" class="container " data-owner="ID">
+    <ul>   
+        <li><a href="//www.cisco.com/cisco/web/siteassets/contacts/index.html">Contacts</a></li>
+        <li><a href="https://secure.opinionlab.com/ccc01/o.asp?id=jBjOhqOJ">Feedback</a></li>
+        <li><a href="//www.cisco.com/web/help/index.html">Help</a></li>
+        <li><a href="//www.cisco.com/web/siteassets/sitemap/index.html">Site Map</a></li>
+
+
+        <li><a href="//www.cisco.com/web/siteassets/legal/terms_condition.html">Terms &amp; Conditions</a></li>
+        <li>
+            <a href="//www.cisco.com/web/siteassets/legal/privacy_full.html"><span>Privacy</span><span>Privacy Statement</span></a>
+        </li>
+        <li>
+            <a href="//www.cisco.com/web/siteassets/legal/privacy_full.html#cookies"> <span>Cookies</span><span>Cookie Policy</span></a>
+        </li>
+        <li><a href="//www.cisco.com/web/siteassets/legal/trademark.html">Trademarks</a></li>
+    </ul>
+
+</footer>   
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="fw-overlay"></div>  
+      
+    
+
+
+
+
+
+
+
+
+
+
+
+
+   	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="//www.cisco.com/etc/designs/cdc/fw/snapshots/js/responsive-1.17v.js"></script>
+
+
+
+
+
+
+    <script type="text/javascript" src="//www.static-cisco.com/assets/camp/j/apps_embedded-min.js"></script>
+
+
+    
+    
+
+    <!-- SiteCatalyst code version: H.24.4. -->
+    <noscript><img src="//cisco.112.2o7.net/b/ss/cisco-mobile/5/12345" width="2" height="2" border="0" alt=""/></noscript>
+    <!--[if IE 8]></ie><![endif]-->
+    
+
+</BODY></HTML>
+
+
